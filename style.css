@@ -1,0 +1,75 @@
+body
+{
+     font-family: raleway,tahoma,sans-serif;
+     
+}
+header
+{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+header a:hover
+{
+    color: #0065fc;
+}
+a
+{ 
+    text-decoration: none;
+    color: black;  
+    font-size: small;     
+}
+header p
+{ 
+    color: #0065fc;
+    font-weight: bold;
+    font-size: small;
+}
+header img
+{ 
+padding-right: 70%;
+height: 40px;
+}
+h1
+{
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: auto;
+    margin-bottom: 2px;
+}
+#section p
+{
+    font-size:0.7em;
+    padding-top: auto;
+    margin-top: 3px;
+
+}   
+form
+{
+    width: 18%;
+    height: 40px;
+}
+
+  
+i
+{
+    border: 1.5px #f2f2f2 solid;
+    border-radius: 6px 0px 0px 6px;
+    background-color: #f2f2f2;
+  
+}   
+label{
+    border: 1.5px #f2f2f2 solid;
+    border-radius: 0px 6px 6px 0px;
+    background-color: #0065fc;
+    color: white;
+    
+}  
+ input{
+     margin: auto;
+     padding: 0px;
+     color: #f2f2f2;
+ }
+
