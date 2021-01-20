@@ -1,0 +1,101 @@
+body
+{
+     font-family: raleway,tahoma,sans-serif;
+     margin: auto;
+     width: 95%;
+     
+}
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+header
+{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+    
+}
+header a:hover
+{
+    color: #0065fc;
+}
+a.activites
+{ 
+    text-decoration: none;
+    color: black;  
+    font-size: small;  
+      
+}
+header p
+{ 
+    color: #0065fc;
+    font-weight: bold;
+    font-size: small;
+
+}
+header img
+{ 
+padding-right: 70%;
+height: 40px;
+
+}
+a.hebergement
+{
+    font-size: small;
+    text-decoration: none;
+    color: #0065fc;
+    border-top: 1.5px #0065fc solid;
+   
+}
+/* iphone 8 */
+@media all and (max-device-width: 480px){
+
+#bloc_page
+{
+    width: auto;
+    
+}    
+header
+{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-template-areas:
+   "logo logo inscrire inscrire" 
+   "heberge heberge activites activites";
+   
+}
+header img
+{
+    grid-area: logo;
+   
+}
+header p
+{
+    grid-area: inscrire ;
+    text-align: end;
+   
+}
+.hebergement
+{
+    grid-area: heberge;
+    text-align: center;
+    border-bottom: 2px #0065fc solid;
+    
+    
+}
+.activites
+{
+    grid-area: activites;
+    text-align: center;
+    border-bottom: 2px #f2f2f2 solid;
+    
+}
+
+}
+
+

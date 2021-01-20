@@ -1,0 +1,152 @@
+/* hebergements à marseille */
+#bloc1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.page2
+{
+    width: 30%;
+   height: 250px;
+}
+#hebergement
+{
+    display: flex;
+}
+.heberge
+{
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    height: 650px;
+    width: 70%;
+    margin-top: 30px;
+}
+.photo
+{
+    width: 100%;
+    height: 145px;
+    border-radius: 10px 10px 0px 0px;
+}
+.marseille
+{
+   border: 6px white solid; 
+   border-radius: 15px;
+   width: 90%;
+   height: 225px;
+   background-color: white;
+   margin-left: 30px;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    color: #0065fc;
+    margin: 0%;
+    padding: 0%;
+    font-size:0.9em;
+    margin: 4px 0px 4px 8px;
+    
+}
+h5
+{
+    margin: 4px 0px 4px 8px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+p
+{
+    margin: 4px 0px 4px 8px;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+#etoile
+{
+    color:#f2f2f2;
+}
+h4
+{
+   
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-size: larger;
+}
+#etoile1
+{
+    color: #f2f2f2;
+}
+#etoile2
+{
+    color: #f2f2f2;
+}
+#etoile3
+{
+    color: #f2f2f2;
+}
+#etoile4
+{
+    color: #f2f2f2;
+}
+h6
+{
+    font-size: 1em;
+    margin: 30px 0px 0px 25px;
+    font-weight: bolder;
+}
+.titre
+{
+    display: flex;
+}
+.populaires
+{
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    height: 650px;
+    width: 28%;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+#fleche
+{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.pop
+{
+    display: flex;
+    width: 90%;
+    height: 150px;
+    border: 6px white solid;
+    border-radius: 8px;
+    margin-left: 15px;
+    background-color: white;
+    margin-bottom: 30px;
+    
+}
+.photob
+{
+    width: 50%;
+    height: 150px;
+    border-radius: 6px 0px 0px 6px;
+}
+.info_hotel
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ulpop
+{
+    margin-top: 40px;
+}
+#etoile5
+{
+    color: #f2f2f2;
+}
+#etoile6
+{
+    color: #f2f2f2;
+}

@@ -1,0 +1,207 @@
+h1
+{
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: auto;
+    margin-bottom: 2px;
+}
+#section p
+{
+    font-size:0.7em;
+    padding-top: auto;
+    margin-top: 3px;
+    margin-left: 0%;
+
+}   
+form
+{
+    display: flex;
+    width: 60%;
+    height: 40px;
+    align-content: center;
+}
+#element1
+{
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    border-radius: 8px 0px 0px 8px;
+    width: 4%;
+    height: 33px;
+    text-align: center;
+    align-items: baseline;
+}
+  
+#rechercher
+{
+     margin-right: 0%;
+     padding: 0px;
+     height: 30px;
+     border: 1.5px #f2f2f2 solid;
+}
+#search
+{
+    height: 12px;
+    margin-top: 25%;
+    margin-left: 5%;
+   
+   
+}
+#bouton1
+{
+    background-color: #0065fc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 33px;
+    border-radius: 0px 8px 8px 0px;
+}
+#bouton2
+{
+    display: none;
+}
+#filtres
+{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    height: 80px;
+    align-items: center;
+
+}
+h3
+{
+    font-weight: bold;
+    font-size: 0.9em;
+    
+    
+}
+h2
+{
+    font-weight: bold;
+    margin: 10px 0px 10px 35px;
+}
+.filter:hover
+{
+    background-color:#deebff;
+}
+.filter
+{
+    display: flex;
+    font-size: 0.6em;
+    font-weight: bold;
+    border: #f2f2f2 3px solid;
+    border-radius: 30px;
+    height: 35px;
+    width: 15%;
+    border-left: none;
+    position: relative;
+
+}
+#filtres p{
+    border: 2px none;
+    border-radius: 30px;
+    background-color: #deebff;
+    color: #0065fc;
+    width: 40px;
+    height: 40px;
+    margin: -3px 0px 5px -10px;
+    position: absolute;
+
+
+}
+#animaux{ 
+    width: 23%;
+}
+#money{
+    margin-top: 13px;
+    margin-left: 12px;
+    font-size: 13px;
+}
+#family{
+    margin-top: 13px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+#lover{
+    margin-top: 13px;
+    margin-left: 13px;
+    font-size: 15px;
+}
+#dog{
+    margin-top: 12px;
+    margin-left: 12px;
+    font-size: 15px;
+
+}
+#info{
+    display: flex;
+}
+#information{
+    border: 3px #f2f2f2 solid;
+    border-radius: 50px;
+    margin-right: 8px;
+    color:#0065fc;
+    font-size: 0.7em;
+    width: 10px;
+}
+@media all and (max-device-width: 480px){
+
+#filtres{
+    display: grid;
+    height: 290px;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "filtres filtres"
+    "eco fam"
+    "rom rom"
+    "chien chien";
+}   
+#filtres h3{
+    grid-area: filtres;
+} 
+#economique{
+    grid-area: eco;
+    width: 55%;
+
+}
+#familial{
+    grid-area: fam;
+    width: 40%;
+}
+#romantique{
+    grid-area: rom;
+    width: 40%;
+    
+}
+#animaux{
+    grid-area: chien;
+    width: 50%;
+}
+h2{
+    padding-left: 40px;
+    padding-top: 10px;
+    margin: 0%;
+   
+}
+#bouton1
+{
+    display: none;
+}
+#bouton2
+{
+    display: inherit;
+    background-color: #0065fc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 33px;
+    border-radius: 8px;
+
+}
+
+
+}
