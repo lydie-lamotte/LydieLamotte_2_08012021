@@ -10,6 +10,8 @@
 {
     width: 30%;
    height: 250px;
+   text-decoration: none;
+   color: black;
 }
 #hebergement
 {
@@ -149,4 +151,9 @@ h6
 #etoile6
 {
     color: #f2f2f2;
+
+}
+@media all and (max-device-width: 480px)
+{
+    
 }
