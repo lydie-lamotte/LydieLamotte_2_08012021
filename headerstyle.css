@@ -53,7 +53,6 @@ a.hebergement
 
 body
 {
-    margin: auto;
     width: 100%;
 }    
   
@@ -66,7 +65,7 @@ header
    "logo logo inscrire inscrire" 
    "heberge heberge activites activites";
    height: 500px;
-   width: 135%;
+   width: 140%;
    
 }
 header img

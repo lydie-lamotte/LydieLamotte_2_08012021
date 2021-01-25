@@ -200,6 +200,7 @@ form
     "eco fam"
     "rom rom"
     "chien chien";
+    margin-left: 20px;
 }   
 #filtres h3
 {
@@ -296,4 +297,10 @@ h3
 {
     border: #f2f2f2 5px solid;
     border-radius: 50px;
+}
+#info
+{
+    margin-left: 20px;
+}
+
 }

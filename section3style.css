@@ -1,0 +1,105 @@
+#bloc_activite
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "vieuxport pomegue parc notredame"
+    "vieuxport frioul parc longchamp";
+    height: 500px;
+
+}
+.activite1
+{
+    height: 480px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.photoc
+{
+    height: 420px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 30px 30px 0px 0px;
+}
+.photod
+{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 30px 30px 0px 0px;
+}
+.photoe
+{
+    width: 300px;
+    object-fit: cover;
+    height: 120px;
+    border-radius: 30px 30px 0px 0px;
+}
+.photof
+{
+    width: 300px;
+    object-fit: cover;
+    height: 150px;
+    border-radius: 30px 30px 0px 0px;
+}
+.photog
+{
+    width: 300px;
+    object-fit: cover;
+    height: 180px;
+    border-radius: 30px 30px 0px 0px;
+}
+#vieuxport
+{
+    grid-area: vieuxport;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    width: 300px;
+}
+#pomegues
+{
+    grid-area: pomegue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    width: 300px;
+}
+#frioul
+{
+    grid-area: frioul;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    width: 300px;
+    height: 180px;
+}
+#parc
+{
+    grid-area: parc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    width: 300px;
+}
+#notredame
+{
+    grid-area: notredame;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    width: 300px;
+    height: 210px;
+}
+#longchamp
+{
+    grid-area: longchamp;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    width: 300px;
+    height: 230px;
+}
+#bloc_activite p
+{
+    font-size: 1em;
+    font-weight: bold;
+    align-items: center;
+}
