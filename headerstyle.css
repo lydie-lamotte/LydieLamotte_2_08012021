@@ -73,6 +73,8 @@ header img
     grid-area: logo;
     height: 150px;
     width: 50%;
+    padding-left: 100px;
+    padding-bottom: 20px;
    
 }
 header p
@@ -89,8 +91,6 @@ a.hebergement
     border-bottom: 4px #0065fc solid;
     font-size: 40px;
     border-top: none;
-    
-    
 }
 a.activites
 {
@@ -100,8 +100,11 @@ a.activites
     font-size: 40px;
     
 }
-
-
 }
 
+/* tablette */
+@media only screen and (min-width: 768px) and (max-width:480px)
+{
+
+}
 

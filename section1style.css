@@ -33,14 +33,15 @@ form
   
 #rechercher
 {
-     margin-right: 0%;
-     padding: 0px;
-     height: 30px;
-     border: 3px #f2f2f2 solid;
+    margin-right: 0%;
+    padding: 0px;
+    height: 30px;
+    border: 3px #f2f2f2 solid;
+    padding-left: 20px;
 }
 #search
 {
-    height: 12px;
+    height: 14px;
     margin-top: 25%;
     margin-left: 5%;
    
@@ -53,7 +54,7 @@ form
     border: none;
     cursor: pointer;
     width: 100px;
-    height: 33px;
+    height: 36px;
     border-radius: 0px 8px 8px 0px;
 }
 #bouton2
@@ -139,7 +140,7 @@ h2
     display: flex;
 }
 #information{
-    border: 5px #f2f2f2 solid;
+    border: 3px #f2f2f2 solid;
     border-radius: 50px;
     margin-right: 8px;
     color:#0065fc;
@@ -151,7 +152,6 @@ h2
 
 h1
 {
-    text-align: justify;
     font-size: 60px;
     padding-left: 30px;
     width: 100%;
