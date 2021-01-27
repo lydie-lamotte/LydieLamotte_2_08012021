@@ -3,7 +3,6 @@ body
      font-family: raleway,tahoma,sans-serif;
      margin: auto;
      width: 95%;
-     
 }
 header
 { 
@@ -11,8 +10,6 @@ header
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    
-    
 }
 header a:hover
 {
@@ -23,7 +20,6 @@ a.activites
     text-decoration: none;
     color: black;  
     font-size: small;  
-      
 }
 header p
 { 
@@ -55,7 +51,6 @@ body
 {
     width: 100%;
 }    
-  
 header
 {
    display: grid;
@@ -103,8 +98,30 @@ a.activites
 }
 
 /* tablette */
-@media only screen and (min-width: 768px) and (max-width:480px)
+@media screen and (max-device-width: 768px) and (min-device-width: 480px)
 {
-
+body
+{
+    width: 100%;
+}    
+header img
+{
+    height: 80px;
+    padding-right: 50%;
+    margin-left: 20px;
 }
-
+a.hebergement
+{
+    font-size: 1.5em;
+    padding-right: 50px;
+}
+a.activites
+{
+    font-size: 1.5em;
+    padding-right: 50px;
+}
+header p
+{
+   font-size: 1.5em; 
+}
+}

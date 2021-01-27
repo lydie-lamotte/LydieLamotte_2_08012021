@@ -8,10 +8,18 @@
 }
 .page2
 {
-    width: 30%;
+    width: 300px;
     height: 250px;
     text-decoration: none;
     color: black;
+}
+a.page2:hover
+{
+    transform: scale(1.3);
+}
+.pop:hover
+{
+    transform: scale(1.3);
 }
 #hebergement
 {
@@ -243,3 +251,54 @@ h6
 }
 }
 
+/* tablette */
+@media screen and (max-device-width: 768px) and (min-device-width: 480px)
+{
+
+/* les plus populaires */    
+
+#hebergement
+{
+    flex-direction: column-reverse;
+}
+.populaires
+{  
+    height: 500px; 
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: 0%;
+    border-radius: 0%;
+}
+#bloc2
+{
+    display: flex;
+}
+.page2
+{
+    height: 350px;
+    width: 300px;
+}
+.pop
+{
+    height: 350px;
+    width: 300px;
+    margin-right: 50px;
+}
+h4
+{
+    font-size: 2em;
+}
+#fleche
+{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-left: 1100px;
+}
+
+/* hebergement */
+.heberge
+{
+    width: 1200px;
+    height: 1000px;
+}
+}
