@@ -14,32 +14,32 @@ header
 header a:hover
 {
     color: #0065fc;
+    border-top: 1.5px #0065fc solid;
+
 }
 a.activites
 { 
     text-decoration: none;
     color: black;  
-    font-size: small;  
+    font-size: small;
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
 header p
 { 
     color: #0065fc;
     font-weight: bold;
-    font-size: small;
-
 }
 header img
 { 
-padding-right: 70%;
-height: 40px;
-
+    padding-right: 70%;
+    height: 40px;
 }
 a.hebergement
 {
     font-size: small;
     text-decoration: none;
-    color: #0065fc;
-    border-top: 1.5px #0065fc solid;
+    color: black;
     padding-top: 30px;
     margin-bottom: 30px;
    
@@ -83,17 +83,20 @@ a.hebergement
 {
     grid-area: heberge;
     text-align: center;
-    border-bottom: 4px #0065fc solid;
-    font-size: 40px;
-    border-top: none;
+    border-bottom: 4px #f2f2f2 solid;
+    font-size: 2.5em;
 }
 a.activites
 {
     grid-area: activites;
     text-align: center;
     border-bottom: 4px #f2f2f2 solid;
-    font-size: 40px;
-    
+    font-size: 2.5em;
+}
+header a:hover
+{
+    border-bottom: #0065fc;
+    color: #0065fc;
 }
 }
 

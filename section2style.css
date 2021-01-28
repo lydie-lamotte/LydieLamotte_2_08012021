@@ -263,7 +263,7 @@ h6
 }
 .populaires
 {  
-    height: 500px; 
+    height: 550px; 
     width: 1200px;
     margin-top: 50px;
     margin-left: 0%;
@@ -272,6 +272,9 @@ h6
 #bloc2
 {
     display: flex;
+    justify-content: space-around;
+    margin-left: -30px;
+    margin-top: 20px;
 }
 .page2
 {
@@ -283,6 +286,12 @@ h6
     height: 350px;
     width: 300px;
     margin-right: 50px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.ulpop
+{
+    margin: 5px;
 }
 h4
 {
@@ -294,11 +303,58 @@ h4
     margin-top: 50px;
     margin-left: 1100px;
 }
+.photob
+{
+    width: 300px;
+    height: 230px;
+    border-radius: 20px 20px 0px 0px;
+}
+.info_hotel
+{
+    font-size: 1.5em;
+}
 
 /* hebergement */
+
+#bloc1
+{
+    height: 1000px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
 .heberge
 {
+    height: max-content;
     width: 1200px;
-    height: 1000px;
+    background-color: white;
+}
+h6
+{
+    font-size: 2em;
+    margin-top: 0%;
+}
+.marseille
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.photo
+{
+    width: 300px;
+    height: 230px;
+}
+.marseille h5
+{
+    font-size: 1.5em
+}
+.marseille p
+{
+    font-size: 1.5em;
+}
+.marseille ul
+{
+    font-size: 1.5em;
 }
 }

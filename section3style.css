@@ -203,3 +203,89 @@
     margin-top: 200px;
 }
 }
+
+/* tablette */
+@media screen and (max-device-width: 768px) and (min-device-width: 480px)
+{
+#activites
+{
+    height: 900px;
+    margin-top: 50px;
+}   
+#bloc_activite
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "vieuxport pomegue parc"
+    "notredame frioul longchamp"; 
+    height: max-content;
+    margin-top: 50px;
+}
+#vieuxport
+{
+    height: 300px;
+    width: 350px;
+    margin-left: 50px;
+}
+#pomegues
+{
+    height: 300px;
+    width: 350px;
+    margin-left: 20px;
+}
+#parc
+{
+    height: 300px;
+    width: 350px;
+    margin-left: 20px;
+}
+#notredame
+{
+    height: 300px;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#frioul
+{
+    height: 300px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#longchamp
+{
+    height: 300px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 50px; 
+}
+.photoc
+{
+    height: 230px;
+    width: 350px;
+}
+.photod
+{
+    height: 230px;
+    width: 350px;  
+}
+.photoe
+{
+    height: 230px;
+    width: 350px;  
+}
+.photof
+{
+    height: 230px;
+    width: 350px;  
+}
+.photog
+{
+    height: 230px;
+    width: 350px;  
+}
+
+}
