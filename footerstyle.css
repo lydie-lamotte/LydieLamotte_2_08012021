@@ -5,7 +5,7 @@ footer
     justify-content: space-around;
     height: 150px;
 }
-h7
+footer h1
 {
     font-weight: bold;
     padding-left: 7px;
@@ -30,7 +30,7 @@ footer
     width: 1380px;
     height: 1600px;
 }  
-h7
+footer h1
 {
     font-size: 5em;
     padding-left: 50px;

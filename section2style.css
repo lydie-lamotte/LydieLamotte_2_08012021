@@ -24,6 +24,7 @@ a.page2:hover
 #hebergement
 {
     display: flex;
+    margin: 0px 20px;
 }
 .heberge
 {
@@ -110,7 +111,7 @@ h6
 #fleche
 {
     margin-top: 30px;
-    margin-left: 360px;
+    margin-left: 350px;
     position:absolute
 }
 .pop
@@ -264,9 +265,9 @@ h6
 .populaires
 {  
     height: 550px; 
-    width: 1200px;
+    width: 1230px;
     margin-top: 50px;
-    margin-left: 0%;
+    margin-left: -25px;
     border-radius: 0%;
 }
 #bloc2
@@ -280,6 +281,10 @@ h6
 {
     height: 350px;
     width: 300px;
+}
+.titre
+{
+    margin-left: 20px;
 }
 .pop
 {
@@ -296,12 +301,14 @@ h6
 h4
 {
     font-size: 2em;
+    margin-left: 25px;
+    padding-left: 0%;
 }
 #fleche
 {
     font-size: 2em;
     margin-top: 50px;
-    margin-left: 1100px;
+    margin-left: 1140px;
 }
 .photob
 {

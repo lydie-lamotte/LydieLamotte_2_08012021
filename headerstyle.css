@@ -1,8 +1,11 @@
 body
 {
      font-family: raleway,tahoma,sans-serif;
-     margin: auto;
-     width: 95%;
+}
+.contenu
+{
+    max-width: 1500px;
+    margin: auto;
 }
 header
 { 
@@ -10,11 +13,12 @@ header
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    margin: 0px 20px;
 }
 header a:hover
 {
     color: #0065fc;
-    border-top: 1.5px #0065fc solid;
+    border-top: 1.6px #0065fc solid;
 
 }
 a.activites
@@ -126,5 +130,36 @@ a.activites
 header p
 {
    font-size: 1.5em; 
+}
+}
+
+/* small screen */
+@media screen and (max-width: 1024px) and (min-width: 768px)
+{
+.contenu
+{
+    max-width: 1024px;
+}        
+header img
+{
+    height: 70px;
+    padding-right: 50%;
+    margin-left: 20px;
+    width: 700px;
+} 
+a.hebergement
+{
+    font-size: 1.5em;
+    margin-left: 130px;
+}
+a.activites
+{
+    font-size: 1.5em;
+    margin-left: 50px;
+}
+header p
+{
+    font-size: 1.5em;
+    margin-left: 50px;
 }
 }
