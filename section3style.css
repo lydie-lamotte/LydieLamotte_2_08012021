@@ -219,7 +219,7 @@
 #activites
 {
     height: 900px;
-    margin-top: 50px;
+    margin-top: 100px;
 }   
 #bloc_activite
 {
@@ -234,67 +234,70 @@
 }
 #vieuxport
 {
-    height: 300px;
-    width: 350px;
+    height: 320px;
+    width: 380px;
     margin-left: 50px;
 }
 #pomegues
 {
-    height: 300px;
-    width: 350px;
+    height: 320px;
+    width: 380px;
     margin-left: 20px;
 }
 #parc
 {
-    height: 300px;
-    width: 350px;
+    height: 320px;
+    width: 380px;
     margin-left: 20px;
 }
 #notredame
 {
-    height: 300px;
-    width: 350px;
+    height: 320px;
+    width: 380px;
     margin-left: 50px;
     margin-top: 50px;
 }
 #frioul
 {
-    height: 300px;
-    width: 350px;
+    height: 320px;
+    width: 380px;
     margin-left: 20px;
     margin-top: 50px;
 }
 #longchamp
 {
-    height: 300px;
-    width: 350px;
+    height: 320px;
+    width: 380px;
     margin-left: 20px;
     margin-top: 50px; 
 }
 .photoc
 {
-    height: 230px;
-    width: 350px;
+    height: 250px;
+    width: 380px;
 }
 .photod
 {
-    height: 230px;
-    width: 350px;  
+    height: 250px;
+    width: 380px;  
 }
 .photoe
 {
-    height: 230px;
-    width: 350px;  
+    height: 250px;
+    width: 380px;  
 }
 .photof
 {
-    height: 230px;
-    width: 350px;  
+    height: 250px;
+    width: 380px;  
 }
 .photog
 {
-    height: 230px;
-    width: 350px;  
+    height: 250px;
+    width: 380px;  
 }
-
+#bloc_activite p
+{
+    font-size: 1.5em;
+}
 }
