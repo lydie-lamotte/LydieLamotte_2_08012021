@@ -145,12 +145,13 @@ h6
 }
 
 /* iphone 8*/
-@media screen and (max-device-width: 480px){
+@media screen and (max-device-width: 480px) and (min-device-width: 320px){
 
 /* les plus populaires */    
 #hebergement
 {
     flex-direction: column-reverse;
+    margin: 0%;
 }    
 #bloc1
 {
@@ -167,12 +168,12 @@ h6
 h4
 {
     font-size: 4.5em;
-    padding-left: 110px;
+    padding-left: 160px;
 }
 #fleche
 {
     font-size: 4em;
-    margin-top: 85px;
+    margin-top: 100px;
     margin-left: 90%;
 }
 .pop
@@ -181,7 +182,7 @@ h4
     border: 6px white solid;
     border-radius: 30px;
     width: 1100px;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: 40px;
     
 }
@@ -218,6 +219,7 @@ ul
 {
     background-color: white;
     height: max-content;
+    margin-left: 50px;
 }
 .page2
 {
@@ -252,7 +254,7 @@ h6
 }
 
 /* tablette */
-@media screen and (max-device-width: 768px) and (min-device-width: 480px)
+@media screen and (max-device-width: 769px) and (min-device-width: 481px)
 {
 
 /* les plus populaires */    
@@ -399,5 +401,23 @@ body
 {
     margin-left: 300px;
 }
+}
+/* mobile large */
+@media screen and (max-device-width: 480px) and (min-device-width: 376px)
+{
+/* plus populaires*/    
+.populaires
+{
+width: 2000px;
+}
+#bloc2
+{
+    margin-left: 100px;
+}
 
+/* hebergement */
+#bloc1
+{
+    margin-left: 100px;
+}
 }

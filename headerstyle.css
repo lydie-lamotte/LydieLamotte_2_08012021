@@ -49,11 +49,12 @@ a.hebergement
    
 }
 /* iphone 8 */
-@media screen and (max-device-width: 480px){
+@media screen and (max-device-width: 375px) and (min-device-width: 320px){
 
 body
 {
     width: max-content;
+    overflow-x: hidden;
 }    
 header
 {
@@ -64,6 +65,7 @@ header
    "logo logo inscrire inscrire" 
    "heberge heberge activites activites";
    height: 500px;
+   margin: 0%;
 }
 header img
 {
@@ -108,7 +110,7 @@ header a:hover
 }
 
 /* tablette */
-@media screen and (max-device-width: 768px) and (min-device-width: 480px)
+@media screen and (max-device-width: 769px) and (min-device-width: 479px)
 {
 body
 {
@@ -183,7 +185,6 @@ header img
 a.hebergement
 {
     font-size: 1.2em;
-
 } 
 a.activites
 {
@@ -198,3 +199,64 @@ header
     margin: 0px 50px;
 }
 }
+
+/* mobile large */
+@media screen and (max-device-width: 480px) and (min-device-width: 376px)
+{
+body
+{
+    width: max-content;;
+    overflow-x: hidden;
+}
+header
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "logo logo inscrire inscrire" 
+    "heberge heberge activites activites";
+    height: 500px;
+    margin: 0%;
+    width: 1680px;
+}
+header img
+{
+    grid-area: logo;
+    height: 150px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+       
+}
+header p
+{
+    grid-area: inscrire ;
+    text-align: center;
+    font-size: 50px;
+}
+a.hebergement
+{
+    grid-area: heberge;
+    text-align: center;
+    border-bottom: 6px #f2f2f2 solid;
+    font-size: 3em;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+a.activites
+{
+    grid-area: activites;
+    text-align: center;
+    border-bottom: 6px #f2f2f2 solid;
+    font-size: 3em;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+header a:hover
+{
+    border-top: none;
+    border-bottom: #0065fc 6px solid;
+    color: #0065fc;
+}
+
+}    
