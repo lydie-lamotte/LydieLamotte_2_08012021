@@ -49,7 +49,7 @@ a.hebergement
    
 }
 /* iphone 8 */
-@media screen and (max-device-width: 375px) and (min-device-width: 320px){
+@media screen and (max-device-width: 375px) and (min-device-width: 321px){
 
 body
 {
@@ -218,7 +218,7 @@ header
     "heberge heberge activites activites";
     height: 500px;
     margin: 0%;
-    width: 1680px;
+    width: 1800px;
 }
 header img
 {
@@ -258,5 +258,63 @@ header a:hover
     border-bottom: #0065fc 6px solid;
     color: #0065fc;
 }
-
+}
+/* small phone */
+@media screen and (max-device-width: 320px)
+{
+body
+{
+    width: max-content;
+    overflow-x: hidden;
+}    
+header
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "logo logo inscrire inscrire" 
+    "heberge heberge activites activites";
+    height: 500px;
+    margin: 0%;
+    width: 1300px;
+}
+header img
+{
+    grid-area: logo;
+    height: 150px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+header p
+{
+    grid-area: inscrire ;
+    text-align: center;
+    font-size: 50px;
+}
+a.hebergement
+{
+    grid-area: heberge;
+    text-align: center;
+    border-bottom: 6px #f2f2f2 solid;
+    font-size: 3em;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+a.activites
+{
+    grid-area: activites;
+    text-align: center;
+    border-bottom: 6px #f2f2f2 solid;
+    font-size: 3em;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+header a:hover
+{
+    border-top: none;
+    border-bottom: #0065fc 6px solid;
+    color: #0065fc;
+}
+} 
 }    

@@ -84,7 +84,7 @@ h4
 }
 .etoile_grise
 {
-    color: rgb(196, 190, 190);
+    color: rgb(218, 213, 213);
 }
 h6
 {
@@ -145,7 +145,7 @@ h6
 }
 
 /* iphone 8*/
-@media screen and (max-device-width: 480px) and (min-device-width: 320px){
+@media screen and (max-device-width: 480px) and (min-device-width: 321px){
 
 /* les plus populaires */    
 #hebergement
@@ -162,7 +162,7 @@ h6
     border-radius: 0%;
     background-color: #f2f2f2;
     margin: 100px 0px;
-    height: 1900px;
+    height: 2000px;
     width: 1480px;
 }
 h4
@@ -174,21 +174,21 @@ h4
 {
     font-size: 4em;
     margin-top: 100px;
-    margin-left: 90%;
+    margin-left: 85%;
 }
 .pop
 {
-    height: 450px;
+    height: 480px;
     border: 6px white solid;
     border-radius: 30px;
-    width: 1100px;
+    width: 1200px;
     margin-left: 150px;
     margin-top: 40px;
     
 }
 .photob
 {
-    height: 405px;
+    height: 440px;
     border-radius:30px 0px 0px 30px ;
     margin-top: 17px;
     margin-left: 17px;
@@ -196,20 +196,20 @@ h4
 }
 h5
 {
-    font-size: 2.9em;
+    font-size: 3.5em;
     margin-top: 15px;
     margin-left: 40px;
     font-weight: bolder;
 }
 p
 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin-left: 40px;
 }
-ul
+.ulpop
 {
-    font-size: 2em;
-    padding-top: 130px;
+    font-size: 3em;
+    margin-top: 150px;
     margin-left: 40px;
 }
 
@@ -224,7 +224,7 @@ ul
 .page2
 {
     width: 1300px;
-    height: 600px;
+    height: 700px;
     margin-top: 60px;
     margin-left: 75px;
 }
@@ -237,7 +237,9 @@ ul
 }
 ul
 {
+    font-size: 3em;
     padding-top: 20px;
+    margin-left: 40px;
 }
 .marseille
 {
@@ -250,6 +252,10 @@ h6
     font-size: 3em;
     margin-top: 90px;
     margin-left: 100px;
+}
+.heberge h4
+{
+    padding-left: 100px;
 }
 }
 
@@ -414,10 +420,122 @@ width: 2000px;
 {
     margin-left: 100px;
 }
+#fleche
+{
+    margin-left: 70%;
+}
 
 /* hebergement */
 #bloc1
 {
+    margin-left: 100px;
+}
+}
+/* small phone */
+@media screen and (max-device-width: 320px)
+{
+
+
+/* les plus populaires */    
+#hebergement
+{
+    flex-direction: column-reverse;
+    margin: 0%;
+}    
+#bloc1
+{
+    flex-direction: column;
+}
+.populaires
+{
+    border-radius: 0%;
+    background-color: #f2f2f2;
+    margin: 50px 0px;
+    height: 1900px;
+    width: 1300px;
+}
+h4
+{
+    font-size: 4.5em;
+    padding-left: 50px;
+}
+#fleche
+{
+    font-size: 4em;
+    margin-top: 100px;
+    margin-left: 85%;
+}
+.pop
+{
+    height: 450px;
+    border: 6px white solid;
+    border-radius: 30px;
+    width: 1100px;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+}
+.photob
+{
+    height: 405px;
+    border-radius:30px 0px 0px 30px ;
+    margin-top: 17px;
+    margin-left: 17px;
+    width: 540px;
+}
+h5
+{
+    font-size: 3.2em;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+p
+{
+    font-size: 3em;
+    margin-left: 40px;
+}
+ul
+{
+    font-size: 2.8em;
+    padding-top: 130px;
+    margin-left: 40px;
+}
+
+/* hebergement à marseille */
+
+.heberge
+{
+    background-color: white;
+    height: max-content;
+}
+.page2
+{
+    width: 1300px;
+    height: 600px;
+    margin-top: 60px;
+}
+.photo
+{
+    height: 380px ;
+    width: 1150px;
+    margin: 10px 5px 0px 10px;
+    border-radius: 30px 30px 0px 0px;
+}
+ul
+{
+    padding-top: 20px;
+}
+.marseille
+{
+    height: max-content;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h6
+{
+    font-size: 4em;
+    margin-top: 150px;
     margin-left: 100px;
 }
 }
