@@ -20,7 +20,7 @@ footer p
     padding-top: 20px;
 }
 /* iphone 8*/
-@media screen and (max-device-width: 480px) and (min-device-width: 321px)
+@media screen and (max-device-width: 480px)
 {
 
 footer
@@ -85,30 +85,3 @@ footer
 }
 }
 
-/* small phone */
-@media screen and (max-device-width: 320px)
-{
-
-footer
-{
-    flex-direction: column;
-    width: 1480px;
-    height: 1600px;
-}  
-footer h1
-{
-    font-size: 4em;
-    padding-left: 50px;
-}  
-.fin_page
-{
-    padding-top: 50px ;
-    padding-bottom: 80px;
-}
-footer p
-{
-    font-size: 3em;
-    padding-top: 40px;
-    margin-left: 100px;
-}
-}

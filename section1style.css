@@ -20,7 +20,6 @@ h1
 form
 {
     display: flex;
-    width: 60%;
     height: 40px;
     align-content: center;
     margin-top: 10px;
@@ -147,10 +146,10 @@ h2
     margin-right: 8px;
     color:#0065fc;
     font-size: 0.7em;
-    width: 10px;
+    padding: 0px 5px;
 }
 /* iphone 8*/
-@media screen and (max-device-width: 480px) and (min-device-width: 321px){
+@media screen and (max-device-width: 480px){
 
 h1
 {
@@ -529,185 +528,5 @@ h3
 {
     font-size: 1.3em;
     margin-left: 10px;
-}
-}
-/* small phone */
-@media screen and (max-device-width: 320px)
-{
-
-h1
-{
-    font-size: 70px;
-    width: 1000px;
-    margin-left: 50px;
-}    
-#section p
-{
-    font-size: 50px;
-    height:100px;
-    width:100% ;
-    padding-left: 50px;
-    margin-top: 30px;
-}
-/* bouton recherche */
-form
-{
-    height: 80px;
-    width: 100%;
-    margin-left: 50px;
-}
-#element1
-{
-    width: 130px;
-    height: 115px;
-    border-radius: 30px 0px 0px 30px;
-}
-#search
-{
-    height: 100px;
-    margin: 0%;
-    font-size: 45px;
-    padding-top: 5px;
-}
-#rechercher
-{
-    width: 600px;
-    height: 110px;
-    font-size: 60px;
-}
-#bouton1
-{
-    display: none;
-}
-#bouton2
-{
-    display: inherit;
-    background-color: #0065fc;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 62px;
-    padding: 20px 30px 20px 30px;
-    border-radius: 30px;
-    margin-left: -20px;  
-}
-.fa-search
-{
-    font-size: 50px;
-}
-/* filtres */
-#filtres
-{
-    display: grid;
-    height: 800px;
-    width: 130%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "filtres filtres"
-    "eco fam"
-    "rom rom"
-    "chien chien";
-    margin-left: 50px;
-    margin-top: 50px;
-}   
-#filtres h3
-{
-    grid-area: filtres;
-    font-size: 4em;
-    margin-top: 100px;
-} 
-#economique
-{
-    grid-area: eco; 
-    height: 120px;
-    padding-right: 50px; 
-}
-#familial
-{
-    grid-area: fam;
-    height: 120px;
-    padding-right: 50px;
-    margin-left: -300px;
-}
-#romantique
-{
-    grid-area: rom;
-    height: 120px;
-    padding-right: 50px;
-}
-#animaux
-{
-    grid-area: chien;
-    height: 120px;
-    padding-right: 50px;
-}
-h2
-{
-    padding-left: 150px;
-    padding-top: 25px;
-    margin: 0%;
-    font-size: 55px;
-}
-h3
-{
-    font-size: 50px;
-}
-#money
-{
-    font-size: 1em;
-    padding-top: 25px;
-    margin-left: -15px;
-} 
-#filtres p
-{
-    border-radius: 50%; 
-    width: 80px;
-    height: 130px;
-    margin-left: -10px;
-    margin-top: -4px;
-}
-#family
-{
-    font-size: 1.1em;
-    padding-top: 20px;
-    margin-left: -5px;
-}
-#lover
-{
-    font-size: 1.1em;
-    padding-top: 25px;
-    margin-left: -10px;
-}
-#dog
-{
-    font-size: 1.1em;
-    padding-top: 20px;
-    margin-left: -15px;
-        
-}
-#information
-{
-    width: 40px;
-    height: 40px;
-    margin-top: 30px;
-    border: 8px #f2f2f2 solid;
-    padding: 5px;
-}
-.filter
-{
-    border: #f2f2f2 5px solid;
-    border-radius: 60px;
-    width: max-content;
-}
-#info
-{
-    margin-left: 50px;
-    width: 1100px;
-}
-#info p
-{
-    padding-left: 20px;
-    font-size: 3em;
 }
 }

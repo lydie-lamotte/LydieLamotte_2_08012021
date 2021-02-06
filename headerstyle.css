@@ -13,7 +13,7 @@ header
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    margin: 0px 20px;
+    padding: 0px 20px;
 }
 header a:hover
 {
@@ -26,17 +26,16 @@ a.activites
     text-decoration: none;
     color: black;  
     font-size: small;
-    padding-top: 30px;
-    margin-bottom: 30px;
+    padding: 40px;
 }
 header p
 { 
     color: #0065fc;
     font-weight: bold;
+    padding: 20px;
 }
 header img
 { 
-    padding-right: 70%;
     height: 40px;
 }
 a.hebergement
@@ -44,62 +43,53 @@ a.hebergement
     font-size: small;
     text-decoration: none;
     color: black;
-    padding-top: 30px;
-    margin-bottom: 30px;
-   
+    padding: 40px;
+}
+nav
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ancre
+{
+    display: flex;
 }
 /* iphone 8 */
-@media screen and (max-device-width: 375px) and (min-device-width: 321px){
+@media screen and (max-device-width: 375px){
 
 body
 {
-    width: max-content;
-    overflow-x: hidden;
+    width: 100%;
 }    
 header
 {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
-   grid-template-areas:
-   "logo logo inscrire inscrire" 
-   "heberge heberge activites activites";
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
    height: 500px;
    margin: 0%;
 }
 header img
 {
-    grid-area: logo;
     height: 150px;
-    width: 50%;
-    padding-left: 100px;
-    padding-bottom: 20px;
-   
+    padding-left: 50px;
+    padding-bottom: 150px;
 }
 header p
 {
-    grid-area: inscrire ;
-    text-align: center;
     font-size: 50px;
-    padding-left: 90px;
+    margin: 0%;
 }
 a.hebergement
 {
-    grid-area: heberge;
-    text-align: center;
     border-bottom: 6px #f2f2f2 solid;
     font-size: 3em;
-    margin-top: 20px;
-    padding-bottom: 20px;
 }
 a.activites
 {
-    grid-area: activites;
-    text-align: center;
     border-bottom: 6px #f2f2f2 solid;
     font-size: 3em;
-    margin-top: 20px;
-    padding-bottom: 20px;
 }
 header a:hover
 {
@@ -107,20 +97,92 @@ header a:hover
     border-bottom: #0065fc 6px solid;
     color: #0065fc;
 }
+.ancre
+{
+    display: flex;
+    align-content: flex-end;
+    order: 3;
 }
+.inscription
+{
+    display: flex;
+    align-content: flex-start;
+    order: 2;
+}
+
+}
+/* mobile large */
+@media screen and (max-device-width: 480px) and (min-device-width: 376px)
+{
+body
+{
+    width: 100%
+}
+header
+{
+    display: flex;
+    height: 500px;
+    margin: 0%;
+}
+header img
+{
+    height: 150px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+header p
+{
+    font-size: 50px;
+}
+a.hebergement
+{
+    border-bottom: 6px #f2f2f2 solid;
+    font-size: 3em;
+    padding: 20px;
+}
+a.activites
+{
+    border-bottom: 6px #f2f2f2 solid;
+    font-size: 3em;
+    padding: 20px;
+}
+header a:hover
+{
+    border-top: none;
+    border-bottom: #0065fc 6px solid;
+    color: #0065fc;
+}
+.inscription
+{
+    order: 2;
+}
+.ancre
+{
+    order: 3;
+}
+}
+
+
 
 /* tablette */
 @media screen and (max-device-width: 769px) and (min-device-width: 479px)
 {
 body
 {
-    width: max-content;
-}    
+    width: 100%;
+} 
+header
+{
+    width: 100%;
+}  
+.ancre
+{
+    display: flex;
+} 
 header img
 {
     height: 80px;
-    padding-right: 50%;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 a.hebergement
 {
@@ -135,8 +197,14 @@ a.activites
 header p
 {
    font-size: 1.5em; 
-   margin-right: 50px;
+   padding-right: 50px;
 }
+nav
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
 }
 
 /* small screen */
@@ -145,14 +213,12 @@ header p
 
 body
 {
-    width: max-content;
+    width: 100%;
 }         
 header img
 {
     height: 70px;
-    padding-right: 50%;
-    margin-left: 20px;
-    width: 700px;
+    padding-left: 20px;
 } 
 a.hebergement
 {
@@ -171,7 +237,7 @@ header p
 }
 header
 {
-    margin: 0px 30px;
+    padding: 0px 30px;
 }
 }
 /* other screen */
@@ -180,7 +246,6 @@ header
 header img
 {
     height: 70px;
-    padding-right: 800px;
 }   
 a.hebergement
 {
@@ -196,125 +261,7 @@ header p
 }
 header
 {
-    margin: 0px 50px;
+    padding: 0px 50px;
 }
 }
 
-/* mobile large */
-@media screen and (max-device-width: 480px) and (min-device-width: 376px)
-{
-body
-{
-    width: max-content;;
-    overflow-x: hidden;
-}
-header
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "logo logo inscrire inscrire" 
-    "heberge heberge activites activites";
-    height: 500px;
-    margin: 0%;
-    width: 1800px;
-}
-header img
-{
-    grid-area: logo;
-    height: 150px;
-    padding-left: 100px;
-    padding-bottom: 20px;
-       
-}
-header p
-{
-    grid-area: inscrire ;
-    text-align: center;
-    font-size: 50px;
-}
-a.hebergement
-{
-    grid-area: heberge;
-    text-align: center;
-    border-bottom: 6px #f2f2f2 solid;
-    font-size: 3em;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-a.activites
-{
-    grid-area: activites;
-    text-align: center;
-    border-bottom: 6px #f2f2f2 solid;
-    font-size: 3em;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-header a:hover
-{
-    border-top: none;
-    border-bottom: #0065fc 6px solid;
-    color: #0065fc;
-}
-}
-/* small phone */
-@media screen and (max-device-width: 320px)
-{
-body
-{
-    width: max-content;
-    overflow-x: hidden;
-}    
-header
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "logo logo inscrire inscrire" 
-    "heberge heberge activites activites";
-    height: 500px;
-    margin: 0%;
-    width: 1300px;
-}
-header img
-{
-    grid-area: logo;
-    height: 150px;
-    padding-left: 100px;
-    padding-bottom: 20px;
-}
-header p
-{
-    grid-area: inscrire ;
-    text-align: center;
-    font-size: 50px;
-}
-a.hebergement
-{
-    grid-area: heberge;
-    text-align: center;
-    border-bottom: 6px #f2f2f2 solid;
-    font-size: 3em;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-a.activites
-{
-    grid-area: activites;
-    text-align: center;
-    border-bottom: 6px #f2f2f2 solid;
-    font-size: 3em;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-header a:hover
-{
-    border-top: none;
-    border-bottom: #0065fc 6px solid;
-    color: #0065fc;
-}
-} 
-}    
