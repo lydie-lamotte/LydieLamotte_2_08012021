@@ -1,55 +1,46 @@
-#section
-{
-    margin-left: 20px;
+#section {
+    padding-left: 20px;
 }
 
-h1
-{
+h1 {
     font-size: 1em;
     font-weight: bold;
     padding-bottom: auto;
     margin-bottom: 2px;
 }
-#section p
-{
+#section p {
     font-size:0.7em;
     padding-top: auto;
     margin-top: 5px;
     margin-left: 0%;
-}   
-form
-{
+}  
+/* rechercher */ 
+form {
     display: flex;
-    height: 40px;
     align-content: center;
     margin-top: 10px;
 }
-#element1
-{
+#element1 {
     background-color: #f2f2f2;
     border-color: #f2f2f2;
     border-radius: 8px 0px 0px 8px;
-    width: 4%;
+    width: 3%;
     height: 36px;
     text-align: center;
     align-items: baseline;
 }  
-#rechercher
-{
+#rechercher {
     margin-right: 0%;
     padding: 0px;
     height: 30px;
     border: 3px #f2f2f2 solid;
-    padding-left: 20px;
 }
-#search
-{
+#search {
     height: 14px;
     margin-top: 25%;
     margin-left: 5%;   
 }
-#bouton1
-{
+#bouton1 {
     background-color: #0065fc;
     color: white;
     border: none;
@@ -58,39 +49,36 @@ form
     height: 36px;
     border-radius: 0px 8px 8px 0px;
 }
-#bouton2
-{
+#bouton2 {
     display: none;
 }
-#filtres
-{
+/* filtres */
+.bloc-filtre {
     display: flex;
-    height: 80px;
-    align-items: center;
-
+    flex-wrap: wrap;
 }
-h3
-{
+#filtres {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+h3 {
     font-weight: bold;
     font-size: 0.9em;
     margin-right: 30px;
     
 }
-h2
-{
+#filtres h2 {
     font-weight: bold;
     margin: 10px 0px 10px 35px;
 }
-.filter:hover
-{
+.filter:hover {
     background-color:#deebff;
 }
-.filter
-{
-    display: flex;
+.filter {
     font-size: 0.6em;
     font-weight: bold;
-    border: #f2f2f2 3px solid;
+    border: #f2f2f2 2px solid;
     border-radius: 30px;
     height: 35px;
     border-left: none;
@@ -99,7 +87,7 @@ h2
     padding-right: 15px;
 
 }
-#filtres p{
+#filtres p {
     border: 2px none;
     border-radius: 50%;
     background-color: #deebff;
@@ -108,40 +96,35 @@ h2
     width: 40px;
     margin: -3px 0px 5px -10px;
     position: absolute;
-
-
 }
-#money
-{
+#money {
     margin-top: 13px;
     margin-left: 12px;
     font-size: 13px;
 }
-#family
-{
+#family {
     margin-top: 13px;
     margin-left: 15px;
     font-size: 15px;
 }
-#lover
-{
+#lover {
     margin-top: 13px;
     margin-left: 13px;
     font-size: 15px;
 }
-#dog
-{
+#dog {
     margin-top: 12px;
     margin-left: 12px;
     font-size: 15px;
 
 }
-#info
-{
+/*info */
+#info {
     display: flex;
+    margin-top: 20px;
 }
-#information{
-    border: 3px #f2f2f2 solid;
+#information {
+    border: 2px #f2f2f2 solid;
     border-radius: 50%;
     margin-right: 8px;
     color:#0065fc;
@@ -149,384 +132,177 @@ h2
     padding: 0px 5px;
 }
 /* iphone 8*/
-@media screen and (max-device-width: 480px){
+@media screen and (max-width: 450px) and (min-width: 320px) {
 
-h1
-{
-    font-size: 70px;
-    padding-left: 80px;
-}    
-#section p
-{
-    font-size: 50px;
-    height:100px;
-    width:100% ;
-    padding-left: 80px;
-    margin-top: 30px;
-}
-/* bouton recherche */
-form
-{
-    height: 80px;
-    width: 100%;
-    margin-left: 80px;
-}
-#element1
-{
-    width: 150px;
-    height: 150px;
-    border-radius: 30px 0px 0px 30px;
-}
-#search
-{
-    height: 100px;
-    margin: 0%;
-    font-size: 55px;
-    padding-top: 20px;
-}
-#rechercher
-{
-    height: 145px;
-    font-size: 60px;
-}
-#bouton1
-{
-    display: none;
-}
-#bouton2
-{
-    display: inherit;
-    background-color: #0065fc;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 95px;
-    padding: 20px 30px 20px 30px;
-    border-radius: 30px;
-    margin-left: -20px; 
-    width: 150px; 
-}
-.fa-search
-{
-    font-size: 55px;
-    padding-bottom: 15px;
-}
-/* filtres */
-#filtres
-{
-    display: grid;
-    height: 800px;
-    width: 130%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "filtres filtres"
-    "eco fam"
-    "rom rom"
-    "chien chien";
-    margin-left: 50px;
-    margin-top: 50px;
-}   
-#filtres h3
-{
-    grid-area: filtres;
-} 
-#economique
-{
-    grid-area: eco; 
-    height: 130px;
-    padding-right: 50px; 
-}
-#familial
-{
-    grid-area: fam;
-    height: 130px;
-    padding-right: 50px;
-    margin-left: -300px;
-}
-#romantique
-{
-    grid-area: rom;
-    height: 130px;
-    padding-right: 50px;
-}
-#animaux
-{
-    grid-area: chien;
-    height: 130px;
-    padding-right: 50px;
-}
-h2
-{
-    padding-left: 150px;
-    padding-top: 30px;
-    margin: 0%;
-    font-size: 50px;
-}
-h3
-{
-    font-size: 50px;
-}
-#money
-{
-    font-size: 1em;
-    margin: 40px 0px;
-    margin-left: -40px;
-    
-} 
-#filtres p
-{
-   border-radius: 50%; 
-   width: 60px;
-   height: 135px;
-   margin-left: -10px;
-   margin-top: -4px;
-}
-#family
-{
-    font-size: 1em;
-    margin: 40px 0px;
-    margin-left: -30px;
-}
-#lover
-{
-    font-size: 1em;
-    margin: 40px 0px;
-    margin-left: -35px;
-}
-#dog
-{
-    font-size: 1em;
-    margin: 40px 0px;
-    margin-left: -35px;
-    
-}
-#information
-{
+    h1 {
+        font-size: 4em;
+        padding-left: 80px;
+    }    
+    #section p {
+        font-size: 50px;
+        padding-left: 80px;
+        margin-top: 30px;
+    }
+    /* bouton recherche */
+    form {
+        width: 100%;
+    }
+    #element1 {
+        height: 150px;
+        border-radius: 30px 0px 0px 30px;
+    }
+    #search {
+        height: 100px;
+        margin: 0%;
+        font-size: 55px;
+        padding-top: 20px;
+    }
+    #bouton1 {
+        display: none;
+    }
+    #bouton2 {
+        display: inherit;
+        background-color: #0065fc;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-left: -20px;
+        width: 60px;
+        height: 60px;  
+    }
+    .fa-search {
+        font-size: 30px;
+    }
+    /* filtres */
+    .bloc-filtre {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #filtres {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }   
+    #filtres h2 {
+        margin: 0%;
+        font-size: 3em;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    #filtres p {
+    border-radius: 50%; 
     width: 40px;
-    height: 40px;
-    margin-top: 30px;
-    border: 8px #f2f2f2 solid;
-    padding: 5px;
-}
-.filter
-{
-    border: #f2f2f2 5px solid;
-    border-radius: 60px;
-    width: max-content;
-}
-#info
-{
-    margin-left: 50px;
-    width: 1100px;
-}
-#info p
-{
-    padding-left: 20px;
-    font-size: 3em;
-}
+    margin-top: -4px;
+    }
+    #information {
+        width: 5%;
+        height: 40px;
+        margin-top: 30px;
+        border: 3px #f2f2f2 solid;
+    }
+    .filter {
+        border: #f2f2f2 5px solid;
+        border-radius: 60px;
+    }
+    #info {
+        width: 100%;
+    }
+    #info p {
+        margin: auto;
+    }
+
 }
 
 /* tablette */
-@media screen and (max-device-width: 769px) and (min-device-width: 481px)
-{
+@media screen and (max-width: 850px) {
 
-h1
-{
-    font-size: 2em;
-    margin-left: 20px;
-}    
-#section p
-{
-    font-size: 1.5em;
-    margin-left: 20px;
-}
-/* barre recherche */
-#element1
-{
-    height: 60px;
-    width: 50px;
-}
-#search
-{
-    height: 50px;
-    width: 20px;
-    margin-top: 5px;
-}
-#rechercher
-{
-    height: 54px;
-    width: 300px;
-    font-size: 1.5em;
-}
-#bouton1
-{
-    height: 58px;
-    width: 200px;
-    font-size: 1.5em;
-}
-form
-{
-    height: 70px;
-    margin-top: 30px;
-    margin-left: 20px;
-}
+    h1 {
+        font-size: 2em;
+        padding-left: 20px;
+    }    
+    #section p {
+        font-size: 1.5em;
+        padding-left: 20px;
+    }
+    /* barre recherche */
+    #element1 {
+        height: 60px;
+        width: 10%;
+    }
+    #search {
+        height: 50px;
+        width: 20px;
+        margin-top: 5px;
+    }
+    #rechercher {
+        height: 54px;
+        font-size: 1.5em;
+        padding-left: 10px;
+    }
+    #bouton1 {
+        height: 58px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+    form {
+        height: 70px;
+        margin-top: 30px;
+        padding-left: 20px;
+    }
 
-/* filtres */
-h3
-{
-    font-size: 1.8em;
-}
-#filtres
-{
-    height: 100px;
-    align-items: baseline;
-    margin-left: 30px;
-}
-.filter
-{
-    height: 50px;
-    margin-right: 50px;
-}
-h2
-{
-    font-size: 2em;
-    margin-left: 60px;
-    width: max-content;
-    margin-top: 15px;
-}
-#filtres p
-{
-    height: 55px;
-    width: 55px;
-    margin-left: -10px;
-}
-#money
-{
-    font-size: 1.5em;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-#family
-{
-    font-size: 1.5em;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-#lover
-{
-    font-size: 1.5em;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-#dog
-{
-    font-size: 1.5em;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-/* logo i */
-#information
-{
-    height: 30px;
-    width: 30px;
-    margin-left: 20px;
-}
-}
-/* small screen */
-@media screen and (max-device-width: 1024px) and (min-device-width: 770px)
-{
-#section h1
-{
-    font-size: 1.5em;
-}    
-#section p
-{
-    font-size: 1em;
-}
-/* barre de recherche */
-form
-{
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-#element1
-{
-    height: 50px;
-    width: 50px;
-}
-#search
-{
-    height: 20px;
-    width: 13px;
-    margin-top: 15px;
-    
-}
-#rechercher
-{
-    height: 45px;
-    width: 250px;
-    font-size: 1.3em;
-}
-#bouton1
-{
-    height: 50px;
-    width: 150px;
-    font-size: 1.3em;
-}
-/* filtres */
-h3
-{
-    font-size: 1.5em;
-}
-.filter
-{
-    font-size: 1em;
-    height: 50px;
-    padding-left: 30px;
-}
-#filtres p
-{
-    height: 55px;
-    width: 55px;
-    margin-left: -30px;
-}
-#filtres
-{
-    width: max-content;
-}
-#money
-{
-    font-size: 18px;
-    margin-left: 15px;
-    margin-top: 18px;
-}
-#family
-{
-    font-size: 18px;
-    margin-left: 20px;
-    margin-top: 18px;
-}
-#lover
-{
-    font-size: 18px;
-    margin-left: 19px;
-    margin-top: 18px;
-}
-#dog
-{
-    font-size: 18px;
-    margin-left: 19px;
-    margin-top: 18px;
-}
-#information
-{
-    font-size: 1.5em;
-    width: 25px;
-}
-#info p
-{
-    font-size: 1.3em;
-    margin-left: 10px;
-}
+    /* filtres */
+    h3 {
+        font-size: 1.8em;
+    }
+    #filtres {
+        padding-bottom: 20px;
+        align-items: baseline;
+        padding-left: 30px;
+    }
+    .filter {
+        height: 50px;
+        margin-right: 50px;
+    }
+    #filtres h2 {
+        font-size: 2em;
+        margin-left: 60px;
+        margin-top: 15px;
+    }
+    #filtres p {
+        height: 55px;
+        margin-left: -10px;
+    }
+    #money {
+        font-size: 1.5em;
+        margin-top: 17px;
+        margin-left: -4px;
+    }
+    #family {
+        font-size: 1.5em;
+        margin-top: 15px;
+        margin-left: auto;
+    }
+    #lover {
+        font-size: 1.5em;
+        margin-top: 15px;
+        margin-left: auto;
+    }
+    #dog {
+        font-size: 1.5em;
+        margin-top: 15px;
+        margin-left: auto;
+    }
+    .bloc-filtre {
+        align-content: space-between;
+    }
+    /* logo i */
+    #information {
+        height: 20px;
+        width: 10px;
+        margin-top: 5px;
+        margin-right: 0%;
+    }
 }

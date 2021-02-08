@@ -1,312 +1,153 @@
-#activites
-{
-    margin: 0px 20px;
+#activites {
+    padding: 0px 20px;
 }
-#bloc_activite
-{
+#bloc_activite {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
     "vieuxport pomegue parc notredame"
     "vieuxport frioul parc longchamp";
-    height: 500px;
     margin-bottom: 40px;
+    grid-column-gap: 3%;
 }
-.photoc
-{
-    height: 430px;
-    width: 320px;
+.photoc {
+    height: 450px;
+    width: 100%;
     object-fit: cover;
     border-radius: 30px 30px 0px 0px;
 }
-.photod
-{
-    height: 205px;
-    width: 320px;
+.photod {
+    height: 195px;
+    width: 100%;
     object-fit: cover;
     border-radius: 30px 30px 0px 0px;
 }
-.photoe
-{
-    width: 320px;
+.photoe {
+    width: 100%;
     object-fit: cover;
-    height: 130px;
+    height: 147px;
     border-radius: 30px 30px 0px 0px;
 }
-.photof
-{
-    width: 320px;
+.photof {
+    width: 100%;
     object-fit: cover;
     height: 165px;
     border-radius: 30px 30px 0px 0px;
 }
-.photog
-{
-    width: 320px;
+.photog {
+    width: 100%;
     object-fit: cover;
-    height: 180px;
+    height: 197px;
     border-radius: 30px 30px 0px 0px;
 }
-#vieuxport
-{
+#vieuxport {
     grid-area: vieuxport;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 30px;
-    width: 320px;
     text-decoration: none;
     color: black;
 }
-#pomegues
-{
+#pomegues {
     grid-area: pomegue;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 30px;
-    width: 320px;
     text-decoration: none;
     color: black;
-    height: 250px;
-    margin-left: 15px;
 }
-#frioul
-{
+#frioul {
     grid-area: frioul;
     margin-top: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 30px;
-    width: 320px;
-    height: 185px;
     text-decoration: none;
     color: black;
-    margin-left: 15px;
 }
-#parc
-{
+#parc {
     grid-area: parc;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 30px;
-    width: 320px;
     text-decoration: none;
     color: black;
-    margin-left: 30px;
 }
-#notredame
-{
+#notredame {
     grid-area: notredame;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 30px;
-    width: 320px;
     height: 220px;
     text-decoration: none;
     color: black;
-    margin-left: 40px;
 }
-#longchamp
-{
+#longchamp {
     grid-area: longchamp;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 30px;
-    width: 320px;
-    height: 235px;
     text-decoration: none;
     color: black;
-    margin-left: 40px;
 }
-#bloc_activite p
-{
+#bloc_activite p {
     font-size: 1em;
     font-weight: bold;
     align-items: center;
-    padding: 10px;
-    padding-top: 10px;
+    padding-left: 20px;
 }
 
 /* iphone 8*/
-@media screen and (max-device-width: 480px)
-{
+@media screen and (max-width: 450px) and (min-width: 320px) {
 
-#bloc_activite
-{
-    display: flex;
-    flex-direction: column;
-    width: 1150px;
-    height: 4000px;
-}    
-#vieuxport
-{
-    height: 590px;
-    width: 1150px;
-    margin-left: 100px;
-    margin-top: 50px;
-   
-}
-#pomegues
-{
-    height: 590px;
-    width: 1150px;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-#frioul
-{
-    height: 590px;
-    width: 1150px;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-#parc
-{
-    height: 590px;
-    width: 1150px;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-#notredame
-{
-    height: 590px;
-    width: 1150px;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-#longchamp
-{
-    height: 590px;
-    width: 1150px;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-.photoc
-{
-    width: 1150px;
-    height: 400px;
-}
-#bloc_activite p
-{
-    font-size: 4em;
-    font-weight: bolder;
-    padding-top: 40px;
-    padding-left: 10px;
-}
-.photod
-{
-    width: 1150px;
-    height: 400px;
-}
-.photoe
-{
-    width: 1150px;
-    height: 400px;
-}
-.photof
-{
-    width: 1150px;
-    height: 400px;
-}
-.photog
-{
-    width: 1150px;
-    height: 400px;
-}
-#activites
-{
-    margin-top: 200px;
-    margin-left: 50px;
-}
+    #activites {
+        width: 100%;
+    }
+    #bloc_activite {
+        display: flex;
+        flex-direction: column;
+    }    
+    #vieuxport, #pomegues, #frioul, #parc, #notredame, #longchamp {
+        height: auto;
+        width: 80%;
+        margin: auto;
+    }
+    #bloc_activite p {
+        font-size: 4em;
+        font-weight: bolder;
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+    .photoc, .photod, .photoe, .photof, .photog {
+        height: 400px;
+    }
 }
 
 /* tablette */
-@media screen and (max-device-width: 769px) and (min-device-width: 481px)
-{
-#activites
-{
-    height: 900px;
-    margin-top: 100px;
-}   
-#bloc_activite
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "vieuxport pomegue parc"
-    "notredame frioul longchamp"; 
-    height: max-content;
-    margin-top: 50px;
+@media screen and (max-width: 850px)  {
+
+    #activites {
+        margin:0%;
+    }   
+    #bloc_activite {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        
+    }
+    #vieuxport, #pomegues, #parc, #frioul, #longchamp {
+        margin: 10px;
+        width: 45%;
+    }
+    #notredame {
+        height: auto;
+        width: 45%;
+        margin: 10px;
+    }
+    .photoc, .photod, .photoe, .photof, .photog {
+        height: 250px;
+    }
+    #bloc_activite p {
+        font-size: 1em;
+    }
+    #activites h4 {
+        font-size: 1.5em;
+        padding-left: 30px;
+    }
 }
-#vieuxport
-{
-    height: 320px;
-    width: 380px;
-    margin-left: 50px;
-}
-#pomegues
-{
-    height: 320px;
-    width: 380px;
-    margin-left: 20px;
-}
-#parc
-{
-    height: 320px;
-    width: 380px;
-    margin-left: 20px;
-}
-#notredame
-{
-    height: 320px;
-    width: 380px;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-#frioul
-{
-    height: 320px;
-    width: 380px;
-    margin-left: 20px;
-    margin-top: 50px;
-}
-#longchamp
-{
-    height: 320px;
-    width: 380px;
-    margin-left: 20px;
-    margin-top: 50px; 
-}
-.photoc
-{
-    height: 250px;
-    width: 380px;
-}
-.photod
-{
-    height: 250px;
-    width: 380px;  
-}
-.photoe
-{
-    height: 250px;
-    width: 380px;  
-}
-.photof
-{
-    height: 250px;
-    width: 380px;  
-}
-.photog
-{
-    height: 250px;
-    width: 380px;  
-}
-#bloc_activite p
-{
-    font-size: 1.5em;
-}
-}
-/* mobile large */
-@media screen and (max-device-width: 480px) and (min-device-width: 376px)
-{
-#bloc_activite
-{
-    margin-left: 100px; 
-}
-}
+

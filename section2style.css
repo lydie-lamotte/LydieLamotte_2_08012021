@@ -1,435 +1,288 @@
 /* hebergements à marseille */
-#bloc1
-{
+#bloc1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 40px;
+    margin: 0px 30px;
 }
-.page2
-{
-    width: 300px;
-    height: 250px;
+.page2 {
+    border: 6px white solid;
+    border-radius: 10px;
+    width: 30%;
     text-decoration: none;
     color: black;
+    margin-bottom: 30px;
+    background-color: white;
 }
-a.page2:hover
-{
-    transform: scale(1.3);
-}
-.pop:hover
-{
-    transform: scale(1.3);
-}
-#hebergement
-{
+.page3 {
     display: flex;
-    margin: 0px 20px;
+    justify-content: space-around ;
+    width: 90%;
+    border: 6px white solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
 }
-.heberge
-{
+a.page2:hover, a.page3:hover {
+    transform: scale(1.3);
+}
+#hebergement {
+    display: flex;
+    padding: 0px 20px;
+}
+.heberge {
     background-color: #f2f2f2;
     border-radius: 25px;
-    height: 650px;
     width: 70%;
     margin-top: 30px;
 }
-.photo
-{
+.photo {
     width: 100%;
     height: 145px;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
-.marseille
-{
-   border: 6px white solid; 
-   border-radius: 15px;
-   width: 90%;
-   height: 225px;
-   background-color: white;
-   margin-left: 30px;
-}
-ul
-{
+ul {
     display: flex;
     list-style-type: none;
     color: #0065fc;
-    margin: 0%;
     padding: 0%;
     font-size:0.9em;
     margin: 4px 0px 4px 8px;
-    
 }
-h5
-{
+.page2 h5 {
     margin: 4px 0px 4px 8px;
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
 }
-.info_hotel p, .page2 p
-{
+ .page2 p {
     margin: 4px 0px 4px 8px;
     font-size: 0.9em;
     text-decoration: none;
 }
-h4
-{
-   
-    padding-left: 20px;
-    margin-bottom: 15px;
+.heberge h4 {
+    padding-left: 50px;
     font-size: larger;
-    width: max-content;
+    margin-bottom: 15px;
 }
-.etoile_grise
-{
+.populaires h4 {
+    padding-left: 20px;
+    font-size: larger;
+}
+.etoile_grise {
     color: rgb(218, 213, 213);
 }
-h6
-{
+h6 {
     font-size: 1em;
-    margin: 30px 0px 0px 25px;
+    padding-left: 40px;
     font-weight: bolder;
+    margin-top: 0%;
 }
 /*les plus populaires*/
-.titre
-{
+.titre {
     display: flex;
 }
-.populaires
-{
+.populaires {
     background-color: #f2f2f2;
     border-radius: 25px;
-    height: 650px;
     width: 28%;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: auto;
     position: relative;
-    
 }
-#fleche
-{
+.info_hotel p {
+    margin: 4px 0px 4px 8px;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+#fleche {
     margin-top: 30px;
-    margin-left: 350px;
+    margin-left: 90%;
     position:absolute
 }
-.pop
-{
+.pop {
     display: flex;
     width: 90%;
     height: 150px;
     border: 6px white solid;
     border-radius: 8px;
-    margin-left: 15px;
     background-color: white;
-    margin-bottom: 30px;
+    margin: auto;
     
 }
-.photob
-{
+.photob {
     width: 50%;
     height: 150px;
     border-radius: 6px 0px 0px 6px;
     object-fit: cover;
 }
-.info_hotel
-{
+.info_hotel {
     display: flex;
     flex-direction: column;
     
 }
-.ulpop
-{
+.ulpop {
     margin-top: 40px;
 
 }
-
+.info_hotel h5 {
+    margin: 4px 0px 4px 8px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 /* iphone 8*/
-@media screen and (max-device-width: 480px){
+@media screen and (max-width: 450px) and (min-width: 320px) {
 
-/* les plus populaires */    
-#hebergement
-{
-    flex-direction: column-reverse;
-    margin: 0%;
-}    
-#bloc1
-{
-    flex-direction: column;
-}
-.populaires
-{
-    border-radius: 0%;
-    background-color: #f2f2f2;
-    margin: 100px 0px;
-    height: 2000px;
-    width: 1480px;
-}
-h4
-{
-    font-size: 4.5em;
-    padding-left: 160px;
-}
-#fleche
-{
-    font-size: 4em;
-    margin-top: 100px;
-    margin-left: 85%;
-}
-.pop
-{
-    height: 480px;
-    border: 6px white solid;
-    border-radius: 30px;
-    width: 1200px;
-    margin-left: 150px;
-    margin-top: 40px;
-    
-}
-.photob
-{
-    height: 440px;
-    border-radius:30px 0px 0px 30px ;
-    margin-top: 17px;
-    margin-left: 17px;
-    width: 540px;
-}
-h5
-{
-    font-size: 3.5em;
-    margin-top: 15px;
-    margin-left: 40px;
-    font-weight: bolder;
-}
-.info_hotel p, .page2 p
-{
-    font-size: 3em;
-    margin-left: 40px;
-}
-.ulpop
-{
-    font-size: 3em;
-    margin-top: 150px;
-    margin-left: 40px;
-}
+    /* les plus populaires */    
+    #hebergement {
+        flex-direction: column-reverse;
+        margin: 0%;
+    }    
+    #bloc1 {
+        flex-direction: column;
+    }
+    .populaires {
+        border-radius: 0%;
+        background-color: #f2f2f2;
+        margin: 100px 0px;
+    }
+    #fleche {
+        font-size: 4em;
+        margin-top: 100px;
+        margin-left: 85%;
+    }
+    .photob {
+        height: 440px;
+        border-radius:30px 0px 0px 30px ;
+        margin-top: 17px;
+        margin-left: 17px;
+        width: 100%;
+    }
+    .info_hotel h5 {
+        margin-top: 15px;
+        margin-left: 40px;
+        font-weight: bolder;
+    }
+    .info_hotel p {
+        margin-left: 40px;
+    }
+    .ulpop {
+        font-size: 1em;
+        margin-top: 150px;
+        margin-left: 40px;
+    }
 
-/* hebergement à marseille */
+    /* hebergement à marseille */
 
-.heberge
-{
-    background-color: white;
-    height: max-content;
-    margin-left: 50px;
-}
-.page2
-{
-    width: 1300px;
-    height: 700px;
-    margin-top: 60px;
-    margin-left: 75px;
-}
-.photo
-{
-    height: 380px ;
-    width: 1150px;
-    margin: 10px 5px 0px 10px;
-    border-radius: 30px 30px 0px 0px;
-}
-ul
-{
-    font-size: 3em;
-    padding-top: 20px;
-    margin-left: 40px;
-}
-.marseille
-{
-    height: max-content;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-h6
-{
-    font-size: 3em;
-    margin-top: 90px;
-    margin-left: 100px;
-}
-.heberge h4
-{
-    padding-left: 100px;
-}
+    .heberge {
+        background-color: white;
+    }
+    .page2 {
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .photo {
+        height: 380px ;
+        width: 100%;
+        margin: 10px 5px 0px 10px;
+        border-radius: 30px 30px 0px 0px;
+    }
+    ul {
+        font-size: 3em;
+        padding-top: 20px;
+        margin-left: 40px;
+    }
+    h6 {
+        font-size: 3em;
+    }
 }
 
 /* tablette */
-@media screen and (max-device-width: 769px) and (min-device-width: 481px)
-{
+@media screen and (max-width: 850px) {
 
-/* les plus populaires */    
+    /* les plus populaires */    
 
-#hebergement
-{
-    flex-direction: column-reverse;
-}
-.populaires
-{  
-    height: 600px; 
-    width: 1500px;
-    margin-top: 50px;
-    margin-left: -25px;
-    border-radius: 0%;
-}
-#bloc2
-{
-    display: flex;
-    justify-content: space-around;
-    margin-left: -30px;
-    margin-top: 20px;
-}
-.page2
-{
-    height: 350px;
-    width: 300px;
-}
-.titre
-{
-    margin-left: 20px;
-}
-.pop
-{
-    height: 400px;
-    width: 380px;
-    margin-right: 50px;
-    flex-direction: column;
-    border-radius: 20px;
-    margin-left: -40px;
-}
-.ulpop
-{
-    margin: 5px;
-}
-h4
-{
-    font-size: 2em;
-    margin-left: 25px;
-    padding-left: 0%;
-}
-#fleche
-{
-    font-size: 2em;
-    margin-top: 50px;
-    margin-left: 1380px;
-}
-.photob
-{
-    width: 380px;
-    height: 260px;
-    border-radius: 20px 20px 0px 0px;
-}
-.info_hotel
-{
-    font-size: 1.5em;
-}
+    #hebergement {
+        flex-direction: column-reverse;
+        padding: 0%;
+    }
+    .populaires {   
+        width: 100%;
+        margin-top: 50px;
+        border-radius: 0%;
+    }
+    #bloc2 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .page3 {
+        flex-direction: column;
+        width: 30%;
+        margin-top: 0;
+    }
+    .ulpop {
+        margin: 5px 0px;
+    }
+    .populaires h4 {
+        font-size: 1.5em;
+    }
+    .photob {
+        width: 100%;
+        height: 260px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .info_hotel h5 {
+        font-size: 0.9em;
+        margin-left: 0;
+    }
+    .info_hotel p {
+        margin-left: 0;
+    }
+    #fleche {
+        font-size: 1.5em;
+    }
+    /* hebergement */
 
-/* hebergement */
+    #bloc1 {
+        margin-top: 40px;
+    }
+    .heberge {
+        width: 100%;
+        background-color: white;
+    }
+    h6 {
+        font-size: 2em;
+    }
+    .page2 {
+        width: 45%;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-#bloc1
-{
-    height: 1000px;
-    margin-top: 40px;
-}
-.heberge
-{
-    height: max-content;
-    width: 1200px;
-    background-color: white;
-    margin-left: 50px;
-}
-h6
-{
-    font-size: 2em;
-    margin-top: 0%;
-}
-.marseille
-{
-    height: 450px;
-    width: 400px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-right: 50px;
-}
-.photo
-{
-    width: 400px;
-    height: 300px;
-}
-.marseille h5
-{
-    font-size: 1.5em
-}
-.marseille p
-{
-    font-size: 1.5em;
-}
-.marseille ul
-{
-    font-size: 1.5em;
-    margin-top: 20px;
-}
+    }
+    .photo {
+        width: 100%;
+        height: 200px;
+    }
+    .page2 h5 {
+        font-size: 1em
+    }
+    .page2 p {
+        font-size: 1em;
+    }
+    .page2 ul {
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    .heberge h4 {
+        font-size: 1.5em;
+        padding-left: 30px;
+    }
 
 }
-/* other screen */
-@media screen and (max-device-width: 1421px) and (min-device-width: 1025px)
-{
-body
-{
-    width: min-content;
-}    
-/* hebergement marseille */
-.heberge
-{
-    width: 1200px;
-}
-.populaires
-{
-    width: 400px;
-}
-.marseille
-{
-    width: 250px;
-    height: 220px;
-}
-.pop
-{
-    width: 300px;
-    height: 150px;
 
-}
-#fleche
-{
-    margin-left: 300px;
-}
-}
-/* mobile large */
-@media screen and (max-device-width: 480px) and (min-device-width: 376px)
-{
-/* plus populaires*/    
-.populaires
-{
-width: 2000px;
-}
-#bloc2
-{
-    margin-left: 100px;
-}
-#fleche
-{
-    margin-left: 70%;
-}
-
-/* hebergement */
-#bloc1
-{
-    margin-left: 100px;
-}
-}

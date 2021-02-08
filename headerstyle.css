@@ -1,267 +1,119 @@
-body
-{
-     font-family: raleway,tahoma,sans-serif;
+body {
+    font-family: raleway,tahoma,sans-serif;
+    width: 100%;
 }
-.contenu
-{
+.contenu {
     max-width: 1500px;
-    margin: auto;
+    box-sizing: border-box;
 }
-header
-{ 
+header { 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
     padding: 0px 20px;
 }
-header a:hover
-{
+header a:hover {
     color: #0065fc;
     border-top: 1.6px #0065fc solid;
 
 }
-a.activites
-{ 
+a.activites { 
     text-decoration: none;
     color: black;  
     font-size: small;
     padding: 40px;
 }
-header p
-{ 
+header p { 
     color: #0065fc;
     font-weight: bold;
     padding: 20px;
 }
-header img
-{ 
-    height: 40px;
-}
-a.hebergement
-{
+a.hebergement {
     font-size: small;
     text-decoration: none;
     color: black;
     padding: 40px;
 }
-nav
-{
+nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.ancre
-{
+.ancre {
     display: flex;
 }
 /* iphone 8 */
-@media screen and (max-device-width: 375px){
+@media screen and (max-width: 450px) and (min-width: 320px) {
 
-body
-{
-    width: 100%;
-}    
-header
-{
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   height: 500px;
-   margin: 0%;
-}
-header img
-{
-    height: 150px;
-    padding-left: 50px;
-    padding-bottom: 150px;
-}
-header p
-{
-    font-size: 50px;
-    margin: 0%;
-}
-a.hebergement
-{
-    border-bottom: 6px #f2f2f2 solid;
-    font-size: 3em;
-}
-a.activites
-{
-    border-bottom: 6px #f2f2f2 solid;
-    font-size: 3em;
-}
-header a:hover
-{
-    border-top: none;
-    border-bottom: #0065fc 6px solid;
-    color: #0065fc;
-}
-.ancre
-{
-    display: flex;
-    align-content: flex-end;
-    order: 3;
-}
-.inscription
-{
-    display: flex;
-    align-content: flex-start;
-    order: 2;
-}
+   
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0%;
+    }
+    header img {
+        padding-left: 50px;
+        height: 5em;
+    }
+    header p {
+        font-size: 50px;
+        margin: 0%;
+    }
+    a.hebergement {
+        border-bottom: 6px #f2f2f2 solid;
+        font-size: 3em;
+    }
+    a.activites {
+        border-bottom: 6px #f2f2f2 solid;
+        font-size: 3em;
+    }
+    header a:hover {
+        border-top: none;
+        border-bottom: #0065fc 6px solid;
+        color: #0065fc;
+    }
+    .ancre {
+        display: flex;
+        align-content: flex-end;
+        order: 3;
+    }
+    .inscription {
+        display: flex;
+        align-content: flex-start;
+        order: 2;
+    }
 
 }
-/* mobile large */
-@media screen and (max-device-width: 480px) and (min-device-width: 376px)
-{
-body
-{
-    width: 100%
-}
-header
-{
-    display: flex;
-    height: 500px;
-    margin: 0%;
-}
-header img
-{
-    height: 150px;
-    padding-left: 100px;
-    padding-bottom: 20px;
-}
-header p
-{
-    font-size: 50px;
-}
-a.hebergement
-{
-    border-bottom: 6px #f2f2f2 solid;
-    font-size: 3em;
-    padding: 20px;
-}
-a.activites
-{
-    border-bottom: 6px #f2f2f2 solid;
-    font-size: 3em;
-    padding: 20px;
-}
-header a:hover
-{
-    border-top: none;
-    border-bottom: #0065fc 6px solid;
-    color: #0065fc;
-}
-.inscription
-{
-    order: 2;
-}
-.ancre
-{
-    order: 3;
-}
-}
-
-
 
 /* tablette */
-@media screen and (max-device-width: 769px) and (min-device-width: 479px)
-{
-body
-{
-    width: 100%;
-} 
-header
-{
-    width: 100%;
-}  
-.ancre
-{
-    display: flex;
-} 
-header img
-{
-    height: 80px;
-    padding-left: 20px;
-}
-a.hebergement
-{
-    font-size: 1.5em;
+@media screen and (max-width: 850px) {
+    
+    header {
+        width: 100%;
+    }  
+    .ancre {
+        display: flex;
+    } 
+    header img {
+        padding-left: 20px;
+    }
+    a.hebergement {
+        font-size: 1.5em;
+        padding-right: 50px;
+    }
+    a.activites {
+        font-size: 1.5em;
+        padding-right: 50px;
+    }
+    header p {
+    font-size: 1.5em; 
     padding-right: 50px;
-}
-a.activites
-{
-    font-size: 1.5em;
-    padding-right: 50px;
-}
-header p
-{
-   font-size: 1.5em; 
-   padding-right: 50px;
-}
-nav
-{
-    display: flex;
-    justify-content: flex-end;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
-}
-
-/* small screen */
-@media screen and (max-device-width: 1024px) and (min-device-width: 770px)
-{
-
-body
-{
-    width: 100%;
-}         
-header img
-{
-    height: 70px;
-    padding-left: 20px;
-} 
-a.hebergement
-{
-    font-size: 1.5em;
-    margin-left: 80px;
-}
-a.activites
-{
-    font-size: 1.5em;
-    margin-left: 50px;
-}
-header p
-{
-    font-size: 1.5em;
-    margin-left: 50px;
-}
-header
-{
-    padding: 0px 30px;
-}
-}
-/* other screen */
-@media screen and (max-device-width: 1421px) and (min-device-width: 1025px)
-{
-header img
-{
-    height: 70px;
-}   
-a.hebergement
-{
-    font-size: 1.2em;
-} 
-a.activites
-{
-    font-size: 1.2em;
-}
-header p
-{
-    font-size: 1.2em;
-}
-header
-{
-    padding: 0px 50px;
-}
-}
 
