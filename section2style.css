@@ -59,7 +59,7 @@ ul {
     font-weight: bold;
     text-decoration: none;
 }
- .page2 p {
+.page2 p {
     margin: 4px 0px 4px 8px;
     font-size: 0.9em;
     text-decoration: none;
@@ -92,7 +92,6 @@ h6 {
     width: 28%;
     margin-top: 30px;
     margin-left: auto;
-    position: relative;
 }
 .info_hotel p {
     margin: 4px 0px 4px 8px;
@@ -101,8 +100,7 @@ h6 {
 }
 #fleche {
     margin-top: 30px;
-    margin-left: 90%;
-    position:absolute
+    margin-left: 40%;
 }
 .pop {
     display: flex;
@@ -137,7 +135,7 @@ h6 {
 }
 
 /* iphone 8*/
-@media screen and (max-width: 450px) and (min-width: 320px) {
+@media screen and (max-width: 650px) and (min-width: 320px) {
 
     /* les plus populaires */    
     #hebergement {
@@ -150,19 +148,16 @@ h6 {
     .populaires {
         border-radius: 0%;
         background-color: #f2f2f2;
-        margin: 100px 0px;
+        width: auto;
     }
     #fleche {
-        font-size: 4em;
-        margin-top: 100px;
-        margin-left: 85%;
+        font-size: 1.5em;
     }
     .photob {
-        height: 440px;
+        height: 150px;
         border-radius:30px 0px 0px 30px ;
         margin-top: 17px;
         margin-left: 17px;
-        width: 100%;
     }
     .info_hotel h5 {
         margin-top: 15px;
@@ -180,31 +175,37 @@ h6 {
 
     /* hebergement à marseille */
 
+
+    #hebergement {
+        padding: 0;
+    }
     .heberge {
         background-color: white;
+        width: auto;
     }
     .page2 {
         border-radius: 30px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: auto;
     }
     .photo {
-        height: 380px ;
+        height: 150px ;
         width: 100%;
-        margin: 10px 5px 0px 10px;
         border-radius: 30px 30px 0px 0px;
     }
     ul {
-        font-size: 3em;
+        font-size: 1em;
         padding-top: 20px;
         margin-left: 40px;
     }
     h6 {
-        font-size: 3em;
+        font-size: 1em;
+        padding: 0;
     }
 }
 
 /* tablette */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) and (min-width: 651px) {
 
     /* les plus populaires */    
 
@@ -213,7 +214,7 @@ h6 {
         padding: 0%;
     }
     .populaires {   
-        width: 100%;
+        width: auto;
         margin-top: 50px;
         border-radius: 0%;
     }
@@ -253,7 +254,7 @@ h6 {
         margin-top: 40px;
     }
     .heberge {
-        width: 100%;
+        width: auto;
         background-color: white;
     }
     h6 {
@@ -266,7 +267,7 @@ h6 {
 
     }
     .photo {
-        width: 100%;
+        max-width: 100%;
         height: 200px;
     }
     .page2 h5 {

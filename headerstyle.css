@@ -1,6 +1,5 @@
 body {
     font-family: raleway,tahoma,sans-serif;
-    width: 100%;
 }
 .contenu {
     max-width: 1500px;
@@ -43,30 +42,31 @@ nav {
     display: flex;
 }
 /* iphone 8 */
-@media screen and (max-width: 450px) and (min-width: 320px) {
+@media screen and (max-width: 650px) and (min-width: 320px) {
 
    
     header {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         margin: 0%;
+        padding: 0;
     }
     header img {
-        padding-left: 50px;
-        height: 5em;
+        height: 3em;
     }
     header p {
-        font-size: 50px;
+        font-size: 1em;
+        order: 2;
         margin: 0%;
+        padding: 0%;
     }
     a.hebergement {
         border-bottom: 6px #f2f2f2 solid;
-        font-size: 3em;
+        font-size: 1em;
     }
     a.activites {
         border-bottom: 6px #f2f2f2 solid;
-        font-size: 3em;
+        font-size: 1em;
     }
     header a:hover {
         border-top: none;
@@ -74,41 +74,29 @@ nav {
         color: #0065fc;
     }
     .ancre {
-        display: flex;
-        align-content: flex-end;
-        order: 3;
+       order: 3;
     }
-    .inscription {
-        display: flex;
-        align-content: flex-start;
-        order: 2;
-    }
+
 
 }
 
 /* tablette */
-@media screen and (max-width: 850px) {
-    
-    header {
-        width: 100%;
-    }  
+@media screen and (max-width: 850px) and (min-width: 651px) {
+     
     .ancre {
         display: flex;
     } 
-    header img {
-        padding-left: 20px;
-    }
     a.hebergement {
-        font-size: 1.5em;
-        padding-right: 50px;
+        font-size: 1em;
+        padding: 20px;
     }
     a.activites {
-        font-size: 1.5em;
-        padding-right: 50px;
+        font-size: 1em;
+        padding: 20px;
     }
     header p {
-    font-size: 1.5em; 
-    padding-right: 50px;
+        font-size: 1em; 
+        padding: 20px;
     }
     nav {
         display: flex;
