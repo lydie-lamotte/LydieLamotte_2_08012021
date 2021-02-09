@@ -1,5 +1,6 @@
 body {
     font-family: raleway,tahoma,sans-serif;
+    margin: 0;
 }
 .contenu {
     max-width: 1500px;
@@ -40,6 +41,7 @@ nav {
 }
 .ancre {
     display: flex;
+    justify-content: flex-end;
 }
 /* iphone 8 */
 @media screen and (max-width: 650px) and (min-width: 320px) {
@@ -57,16 +59,17 @@ nav {
     header p {
         font-size: 1em;
         order: 2;
-        margin: 0%;
         padding: 0%;
     }
     a.hebergement {
         border-bottom: 6px #f2f2f2 solid;
         font-size: 1em;
+        width: 50%;
     }
     a.activites {
         border-bottom: 6px #f2f2f2 solid;
         font-size: 1em;
+        width: 50%;
     }
     header a:hover {
         border-top: none;
@@ -74,9 +77,13 @@ nav {
         color: #0065fc;
     }
     .ancre {
-       order: 3;
-    }
+        order: 3;
+        display: inline-flex;
 
+    }
+    nav {
+        display: contents;
+    }
 
 }
 

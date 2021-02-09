@@ -201,8 +201,7 @@ h3 {
         height: 48px;
     }
     #information {
-        width: 5%;
-        height: 20px;
+        height: 15px;
         border: 3px #f2f2f2 solid;
     }
     .filter {
@@ -274,6 +273,9 @@ h3 {
     .filter {
         height: 40px;
         margin-right: 50px;
+    }
+    #animaux {
+        margin-top: 10px;
     }
     #filtres h2 {
         font-size: 1.8em;

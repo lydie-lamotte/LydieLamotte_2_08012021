@@ -101,13 +101,12 @@
         justify-content: space-between;
     }    
     #vieuxport, #pomegues, #frioul, #parc, #longchamp {
-        margin: auto;
-        margin-bottom: 15px;
+        margin: 15px;
     }
     #notredame
     {
         height: 170px;
-        margin-bottom: 15px;
+        margin: 15px;
     }
     #bloc_activite p {
         font-size: 1em;
