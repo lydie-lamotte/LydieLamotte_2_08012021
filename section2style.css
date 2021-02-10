@@ -55,7 +55,7 @@ ul {
 }
 .page2 h5 {
     margin: 4px 0px 4px 8px;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bold;
     text-decoration: none;
 }
@@ -100,7 +100,8 @@ h6 {
 }
 #fleche {
     margin-top: 30px;
-    margin-left: 40%;
+    margin-left: auto;
+    padding-right: 30px;
 }
 .pop {
     display: flex;
@@ -114,22 +115,21 @@ h6 {
 }
 .photob {
     width: 50%;
-    height: 150px;
     border-radius: 6px 0px 0px 6px;
     object-fit: cover;
 }
 .info_hotel {
     display: flex;
     flex-direction: column;
-    
+    width: 50%;
 }
 .ulpop {
-    margin-top: 40px;
+    margin-top: 50px;
 
 }
 .info_hotel h5 {
     margin: 4px 0px 4px 8px;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bold;
     text-decoration: none;
 }
@@ -151,15 +151,15 @@ h6 {
         width: auto;
     }
     #fleche {
-        font-size: 1.5em;
-        margin-left: 35%;
+        font-size: 1.1em;
+        margin-left: auto;
+        padding-right: 30px;
     }
     .photob {
         height: 140px;
         border-radius:10px 0px 0px 10px;
     }
     .info_hotel h5 {
-        margin-top: 15px;
         padding-left: 10px;
         font-weight: bolder;
         margin-left: 0;
@@ -202,7 +202,7 @@ h6 {
     }
     h6 {
         font-size: 1em;
-        padding: 0;
+        padding-left: 30px;
     }
     .heberge h4
     {
@@ -251,8 +251,14 @@ h6 {
     .info_hotel p {
         margin-left: 0;
     }
+    .info_hotel {
+        height: 25%;
+        width: auto;
+    }
     #fleche {
         font-size: 1.5em;
+        margin-left: auto;
+        padding-right: 30px;
     }
     /* hebergement */
 

@@ -55,21 +55,24 @@ nav {
     }
     header img {
         height: 3em;
+        padding-left: 30px;
     }
     header p {
         font-size: 1em;
         order: 2;
-        padding: 0%;
+        padding-right: 30px;
     }
     a.hebergement {
         border-bottom: 6px #f2f2f2 solid;
         font-size: 1em;
         width: 50%;
+        text-align: center;
     }
     a.activites {
         border-bottom: 6px #f2f2f2 solid;
         font-size: 1em;
         width: 50%;
+        text-align: center;
     }
     header a:hover {
         border-top: none;
@@ -79,7 +82,7 @@ nav {
     .ancre {
         order: 3;
         display: inline-flex;
-
+        width: 100%;
     }
     nav {
         display: contents;
