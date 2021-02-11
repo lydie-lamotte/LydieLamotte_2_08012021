@@ -5,6 +5,7 @@ body {
 .contenu {
     max-width: 1500px;
     box-sizing: border-box;
+    margin: auto;
 }
 header { 
     display: flex;
@@ -46,7 +47,9 @@ nav {
 /* iphone 8 */
 @media screen and (max-width: 650px) and (min-width: 320px) {
 
-   
+    .contenu{
+        margin: 0;
+    }
     header {
         display: flex;
         flex-wrap: wrap;
@@ -67,12 +70,16 @@ nav {
         font-size: 1em;
         width: 50%;
         text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
     a.activites {
         border-bottom: 6px #f2f2f2 solid;
         font-size: 1em;
         width: 50%;
         text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
     header a:hover {
         border-top: none;

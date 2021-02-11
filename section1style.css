@@ -187,7 +187,7 @@ h3 {
     #filtres {
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 20px;
+        margin-top: 10px;
     }   
     #filtres h2 {
         margin: 0%;
@@ -195,6 +195,7 @@ h3 {
     }
     h3 {
         font-size: 1.3em;
+        font-weight: bold;
     }
     #filtres p {
         border-radius: 50%; 

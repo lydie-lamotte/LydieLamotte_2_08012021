@@ -1,26 +1,34 @@
 footer {
     display: flex;
     background-color: #f2f2f2;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding-left: 30px;
+    
 }
 footer h2 {
     font-weight: bold;
     font-size: 1.3em;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+.fin_page {
+    margin-right: 20%;
 }
 /* iphone 8*/
 @media screen and (max-width: 650px) and (min-width: 320px) {
 
     footer {
         flex-direction: column;
+        padding-left: 30px;
     }  
     footer h2 {
         font-size: 1em;
-        padding-left: 50px;
         font-weight: bold;
     }  
-    footer p {
+    footer p, footer a {
         font-size: 0.8em;
-        padding-left: 50px;
     }
 }
 
@@ -35,7 +43,7 @@ footer h2 {
         margin: 0%;
         padding-top: 20px;
     }
-    footer p {
+    footer p, footer a {
         font-size: 0.8em;
     }
 
