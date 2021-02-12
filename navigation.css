@@ -34,7 +34,7 @@ form {
     padding-left: 10px;
     height: 28px;
     border: 3px #f2f2f2 solid;
-    font-weight: bold;
+    font-weight: 600;
 }
 #search {
     height: 14px;
@@ -71,6 +71,7 @@ h3 {
 }
 #filtres h2 {
     font-weight: bold;
+    font-size: 0.9em;
     padding-left: 10px;
 }
 .filter:hover {
@@ -79,8 +80,6 @@ h3 {
 .filter {
     display: flex;
     align-items: center;
-    font-size: 0.6em;
-    font-weight: bold;
     border: #f2f2f2 2px solid;
     border-radius: 30px;
     height: 35px;
@@ -96,6 +95,7 @@ h3 {
     color: #0065fc;
     height: 40px;
     width: 40px;
+    margin: 0;
 }
 #money {
     margin-top: 13px;
@@ -172,7 +172,7 @@ h3 {
         border: none;
         cursor: pointer;
         border-radius: 10px;
-        margin-left: -20px;
+        margin-left: -10px;
         width: 50px;
         height: 50px;  
     }
@@ -191,16 +191,17 @@ h3 {
     }   
     #filtres h2 {
         margin: 0%;
-        font-size: 1.8em;
+        font-size: 1em;
     }
     h3 {
-        font-size: 1.3em;
+        font-size: 1em;
         font-weight: bold;
     }
     #filtres p {
         border-radius: 50%; 
         width: 48px;
         height: 48px;
+        margin: 0;
     }
     #information {
         height: 15px;
@@ -218,13 +219,13 @@ h3 {
         margin: auto;
     }
     #money, #dog {
-        font-size: 1.8em;
-        margin-top: 15px;
+        font-size: 1.1em;
+        margin-top: 13px;
         margin-left: 13px;
     }
     #family, #lover {
-        font-size: 1.8em;
-        margin-top: 15px;
+        font-size: 1.1em;
+        margin-top: 13px;
         margin-left: 15px 
     }
 
@@ -277,33 +278,29 @@ h3 {
         margin-right: 50px;
         margin-top: 10px;
     }
-    #animaux {
-        margin-top: 10px;
-    }
     #filtres h2 {
-        font-size: 1.8em;
+        font-size: 1.2em;
         padding-left: 10px;
     }
     #filtres p {
         height: 45px;
         width: 45px;
-        margin-left: -10px;
     }
     #money {
-        font-size: 1.8em;
-        margin-top: 15px;
+        font-size: 1.3em;
+        margin-top: 13px;
     }
     #family {
-        font-size: 1.8em;
-        margin-top: 15px;
+        font-size: 1.3em;
+        margin-top: 13px;
     }
     #lover {
-        font-size: 1.8em;
-        margin-top: 15px;
+        font-size: 1.3em;
+        margin-top: 13px;
     }
     #dog {
-        font-size: 1.8em;
-        margin-top: 15px;
+        font-size: 1.3em;
+        margin-top: 13px;
     }
     .bloc-filtre {
         align-content: space-between;

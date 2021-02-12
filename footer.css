@@ -46,6 +46,9 @@ footer a {
     footer p, footer a {
         font-size: 0.8em;
     }
+    .fin_page {
+        margin-right: 10%;
+    }
 
 }
 

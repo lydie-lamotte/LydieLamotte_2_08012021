@@ -21,16 +21,17 @@ header a:hover {
 a.activites { 
     text-decoration: none;
     color: black;  
-    font-size: small;
+    font-size: 0.9em;
     padding: 40px;
 }
 header p { 
     color: #0065fc;
     font-weight: bold;
     padding: 20px;
+    font-size: 0.9em;
 }
 a.hebergement {
-    font-size: small;
+    font-size: 0.9em;
     text-decoration: none;
     color: black;
     padding: 40px;
