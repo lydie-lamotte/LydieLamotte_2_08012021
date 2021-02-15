@@ -6,8 +6,8 @@ footer {
     
 }
 footer h2 {
-    font-weight: bold;
-    font-size: 1.3em;
+    font-weight: 700;
+    font-size: 1.2em;
 }
 footer a {
     text-decoration: none;
@@ -22,12 +22,16 @@ footer a {
     footer {
         flex-direction: column;
         padding-left: 30px;
+        padding-bottom: 30px;
     }  
     footer h2 {
         font-size: 1em;
         font-weight: bold;
     }  
-    footer p, footer a {
+    footer p {
+        font-size: 0.8em;
+    }
+    footer a {
         font-size: 0.8em;
     }
 }

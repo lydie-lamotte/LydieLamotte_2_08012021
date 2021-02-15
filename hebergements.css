@@ -58,7 +58,7 @@ ul {
 .page2 h5 {
     margin: 4px 0px 4px 8px;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
 }
 .page2 p {
@@ -70,12 +70,12 @@ ul {
     padding-left: 40px;
     font-size: 1.3em;
     margin-bottom: 15px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .populaires h4 {
     padding-left: 40px;
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 .etoile_grise {
@@ -84,7 +84,7 @@ ul {
 h6 {
     font-size: 1em;
     padding-left: 40px;
-    font-weight: bolder;
+    font-weight: 700;
     margin:0;
     padding-bottom: 40px;
 }
@@ -133,7 +133,7 @@ h6 {
 .info_hotel h5 {
     margin: 4px 0px 4px 8px;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
 }
 

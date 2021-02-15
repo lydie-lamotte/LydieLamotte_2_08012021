@@ -87,7 +87,7 @@
 }
 #bloc_activite p {
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 700;
     align-items: center;
     padding-left: 20px;
 }
@@ -95,7 +95,7 @@
     font-size: 1.3em;
     padding-left: 10px;
     margin-top: 50px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /* iphone 8*/
@@ -126,6 +126,7 @@
     #activites h4 {
         font-size: 1.3em;
         padding-left: 30px;
+        margin-bottom: 10px;
     }
     #activites {
         padding: 0;

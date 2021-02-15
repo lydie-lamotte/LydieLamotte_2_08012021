@@ -1,5 +1,5 @@
 body {
-    font-family: raleway,tahoma,sans-serif;
+    font-family: raleway,sans-serif;
     margin: 0;
 }
 .contenu {
@@ -26,7 +26,7 @@ a.activites {
 }
 header p { 
     color: #0065fc;
-    font-weight: bold;
+    font-weight: 800;
     padding: 20px;
     font-size: 0.9em;
 }
