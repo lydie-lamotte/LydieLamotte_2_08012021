@@ -99,7 +99,7 @@
 }
 
 /* iphone 8*/
-@media screen and (max-width: 650px) and (min-width: 320px) {
+@media screen and (max-width: 650px) and (min-width: 352px) {
 
     #bloc_activite {
         display: flex;
@@ -166,3 +166,28 @@
     }
 }
 
+/* small phone */
+@media screen and (max-width: 351px) {
+    #bloc_activite {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .photoc, .photod, .photoe, .photof, .photog {
+        height: 120px;
+    }
+    #vieuxport, #pomegues, #frioul, #parc, #longchamp {
+        margin: 15px 11px;
+    }
+    #notredame
+    {
+        height: 170px;
+        margin: 15px 11px;
+    }
+    #activites {
+        padding: 0;
+    }
+    #activites h4 {
+        padding-left: 15px;
+    }
+}

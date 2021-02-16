@@ -138,7 +138,7 @@ h6 {
 }
 
 /* iphone 8*/
-@media screen and (max-width: 650px) and (min-width: 320px) {
+@media screen and (max-width: 650px) and (min-width: 352px) {
 
     /* les plus populaires */    
     #hebergement {
@@ -158,7 +158,11 @@ h6 {
         margin-left: auto;
         padding-right: 30px;
     }
-    .photob, .photob2 {
+    .photob {
+        height: 140px;
+        border-radius:10px 0px 0px 10px;
+    }
+    .photob2 {
         height: 140px;
         border-radius:10px 0px 0px 10px;
     }
@@ -301,4 +305,43 @@ h6 {
     }
 
 }
+/* small phone */
+@media screen and (max-width: 351px) {
 
+    /* les plus populaires */    
+
+    #hebergement {
+        flex-direction: column-reverse;
+        padding: 0%;
+    }
+    .populaires {
+        width: 100%;
+        border-radius: 0;
+    }
+    .page3 {
+        width: 90%;
+    }
+    .populaires h4 {
+        padding-left: 15px;
+    }
+
+    /*hebergement*/
+    .heberge {
+        width: auto;
+        background-color: white;
+        padding: 0;
+    }
+    #bloc1 {
+        flex-direction: column;
+        margin: 11px;
+    }
+    .page2 {
+        width: auto;
+    }
+    .heberge h4 {
+        padding-left: 15px;
+    }
+
+
+
+}

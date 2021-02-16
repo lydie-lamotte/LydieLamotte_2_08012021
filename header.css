@@ -29,6 +29,7 @@ header p {
     font-weight: 800;
     padding: 20px;
     font-size: 0.9em;
+    cursor: pointer;
 }
 a.hebergement {
     font-size: 0.9em;
@@ -46,7 +47,7 @@ nav {
     justify-content: flex-end;
 }
 /* iphone 8 */
-@media screen and (max-width: 650px) and (min-width: 320px) {
+@media screen and (max-width: 650px) and (min-width: 352px) {
 
     .contenu{
         margin: 0;
@@ -89,7 +90,6 @@ nav {
     }
     .ancre {
         order: 2;
-        display: inline-flex;
         width: 100%;
     }
     nav {
@@ -122,4 +122,51 @@ nav {
     }
 }
 
+/* small phone */
+@media screen and (max-width: 351px) {
+    
+    .contenu {
+        margin: 0;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    header img {
+        padding-left: 20px;
+    }
+    nav {
+        display: contents;
+    }
+    .ancre {
+        order: 2;
+        width: 100%;
+        flex-direction: column;
+    }
+    header p {
+        order: 1;
+    }
+    header a:hover {
+        border-top: none;
+        border-bottom: #0065fc 6px solid;
+        color: #0065fc;
+    }  
+    a.hebergement {
+        border-bottom: 6px #f2f2f2 solid;
+        font-size: 1em;
+        width: auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    a.activites {
+        border-bottom: 6px #f2f2f2 solid;
+        font-size: 1em;
+        width: auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }  
+}
 

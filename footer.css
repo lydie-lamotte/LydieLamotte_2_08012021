@@ -17,7 +17,7 @@ footer a {
     margin-right: 20%;
 }
 /* iphone 8*/
-@media screen and (max-width: 650px) and (min-width: 320px) {
+@media screen and (max-width: 650px) and (min-width: 352px) {
 
     footer {
         flex-direction: column;
@@ -54,6 +54,15 @@ footer a {
         margin-right: 10%;
     }
 
+}
+
+/* small phone */
+@media screen and (max-width: 351px) {
+
+    footer {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
 }
 
 
