@@ -229,7 +229,7 @@ h3 {
     }
     #family, #lover {
         font-size: 1.1em;
-        margin-top: 13px;
+        margin-top: 15px;
         margin-left: 15px 
     }
 
@@ -255,12 +255,12 @@ h3 {
         margin-top: 5px;
     }
     #rechercher {
-        height: 54px;
+        height: 53px;
         font-size: 1.5em;
         padding-left: 10px;
     }
     #bouton1 {
-        height: 58px;
+        height: 60px;
         font-size: 1.5em;
     }
     form {
@@ -308,23 +308,18 @@ h3 {
     }
     .bloc-filtre {
         align-content: space-between;
-    }
-    /* logo i */
-    #information {
-        height: 20px;
-        width: 10px;
-        margin-top: 5px;
-        margin-right: 0%;
-    }
+    }    
 }
 
 /* small phone */
 @media screen and (max-width: 351px) {
 
-
+    #section {
+        padding-left: 5px;
+    }
     /* rechercher*/
     #element1 {
-        width: 10%;
+        width: 30px;
     }
     #bouton1 {
         display: none;
@@ -343,13 +338,12 @@ h3 {
     .fa-search {
         font-size: 1em;
     }
-
+    #rechercher {
+        width: 60%;
+        font-size: 0.7em;
+    }
     /*filtres*/
     #filtres {
         display: none;
     }
-
-
-
-
 }
