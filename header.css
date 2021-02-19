@@ -142,7 +142,6 @@ nav {
     .ancre {
         order: 2;
         width: 100%;
-        flex-direction: column;
     }
     header p {
         order: 1;
@@ -155,15 +154,15 @@ nav {
     a.hebergement {
         border-bottom: 6px #f2f2f2 solid;
         font-size: 1em;
-        width: auto;
         text-align: center;
         padding-top: 20px;
         padding-bottom: 10px;
+        width: 50%;
     }
     a.activites {
         border-bottom: 6px #f2f2f2 solid;
         font-size: 1em;
-        width: auto;
+        width: 50%;
         text-align: center;
         padding-top: 20px;
         padding-bottom: 10px;
